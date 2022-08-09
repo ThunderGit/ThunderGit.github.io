@@ -28,8 +28,7 @@ const certs=[
 	`images/tech_umovy1str_oliya.jpg`
 ];
 
-let prodIndex=0,
-	certsIndex=0;
+let prodIndex=0, certsIndex=0;
 
 $(`.left1`).click(()=>{
 	prodIndex = prevHref($('.item-info .item-title'), prodIndex, prods);
@@ -47,10 +46,3 @@ $(`.right3`).click(()=>{
 	certsIndex = nextHref($('.item-watch .item-title'), certsIndex, certs);
 });
 
-
-$(`.dropdown-menu span`).click(function () {
-    const selText = $(this).text();
-    const imgSource = $(this).find(`img`).attr(`src`);
-    const img = `<img src="${imgSource}"/>`;        
-    $(this).parents(`.btn-group`).find(`.dropdown-toggle`).html(img + ` ` + selText);
-});
