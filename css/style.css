@@ -85,12 +85,13 @@ html,body{
 	background-color: rgba(0,194,255);
 	color: rgba(2,36,163);
 	border: none;
-	padding: 0.2vw;
 }
+
 .lang:focus,
 .lang:active{
 	outline: none;
 }
+
 .section{ 
 	position: relative;
 	background-repeat: no-repeat;
@@ -440,7 +441,7 @@ html,body{
 
 	p,li
 	{
-		font-size: 2.2vw;
+		font-size: 2vw;
 	}
 
 	.navbar li{
@@ -507,7 +508,7 @@ html,body{
 
 	.footer p,
 	.LTD{
-		font-size: 2vw;
+		font-size: 1.5vw;
 	}
 
 	.footer .copyright{
