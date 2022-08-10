@@ -1,12 +1,14 @@
 let prevHref = (item, index, array) => {
 	index = (index !== 0) ? (index - 1) : (array.length-1);
 	item.attr(`href`, array[index]);
+	item.attr(`download`, array[index]);
 	
 	return index;
 };
 let nextHref  = (item, index, array) => {
 	index = (index !== array.length-1) ? (index + 1) : 0;
 	item.attr(`href`, array[index]);
+	item.attr(`download`, array[index]);
 
 	return index;
 };
@@ -28,7 +30,8 @@ const certs=[
 	`images/tech_umovy1str_oliya.jpg`
 ];
 
-let prodIndex=0, certsIndex=0;
+let prodIndex=0,
+	certsIndex=0;
 
 $(`.left1`).click(()=>{
 	prodIndex = prevHref($('.item-info .item-title'), prodIndex, prods);
@@ -46,3 +49,21 @@ $(`.right3`).click(()=>{
 	certsIndex = nextHref($('.item-watch .item-title'), certsIndex, certs);
 });
 
+const setLanguage = selectedLang => loadXML(selectedLang);
+
+const loadXML = (lang) => {
+
+	const xhttp = new XMLHttpRequest();
+		xhttp.onload = function() {
+		getXML(this);
+	}
+  
+	xhttp.open(`GET`, `./lang/lang-${lang}.xml`);
+	xhttp.send();
+};
+const getXML = xml => {
+
+	const bodyXML = xml.responseXML.getElementsByClassName(`body`)[0];	
+	console.log(bodyXML);
+	$(`.body`).html(bodyXML.innerHTML);
+};
