@@ -1,0 +1,462 @@
+<body class='body body-EN'>
+	<header class='header'>
+		<div class='logo'>
+			<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
+			<div class='header2'>
+				<h2>FOOD, FEED, pharmaceutical PHOSPHOLIPIDS</h2>
+				<h2>SUNFLOWER PHOSPHOLIPIDS TECHNOLOGY</h2>
+			</div>
+		</div>
+		<!-- <nav>
+			<ul id='navbar' class='navbar'>
+				<li><a href="#">Головна</a></li>
+				<li><a href="#products">Продукція</a></li>
+				<li><a href="#effectiveness">Ефективність застосування</a></li>
+				<li><a href="#ecosolutions">Еко рішення</a></li>
+				<li><a href="#authorizations">Дозвільна документація</a></li>
+				<li><a href="#about">Про нас</a></li>
+			</ul>
+		</nav> -->
+		<nav class="navbar">
+			
+			<button type="button" class="navbar-toggle collapsed btn-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		   
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="navbar-nav">
+					<li>
+						<select class="lang" onchange="setLanguage(this.value)">
+							<option value="UA">UA</option>
+							<option value="EN" selected="selected">EN</option>
+							<option value="ru">ru</option>
+						</select>
+					</li>
+					<li class="active"><a href="#">Main Page <span class="sr-only">(current)</span></a></li>
+					<li><a href="#products">Products</a></li>
+					<li><a href="#effectiveness">Effectiveness of use</a></li>
+					<li><a href="#ecosolutions">Safe Solutions</a></li>
+					<li><a href="#authorizations">Authorizations</a></li>
+					<li><a href="#about">About Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section id="products" class="section products">
+		<header>
+			<h2 class='section-title'>
+				<b>Products</b>
+			</h2>
+		</header>
+		<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+			
+			<div class="carousel-inner" role="listbox">
+				
+				<div class="item active">
+					<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Lecithin &#8211; Dietary grad</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Phosphatidylcholine &#8211; 50% ethanol solution</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Phosphatidylcholine &#8211; 50% isopropyl alcohol solution</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Concentrated phosphatide oil</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Lecithin &#8211; feed additive</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Lecithin &#8211; food additive</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/page4_pic7.png" alt="Dry sunflower phosphatidylcholine with 70,0-97,0% concentration of the main substance" class='center-block item-image'/>
+					<div class='item-caption'>
+						<h3 class="item-title">Dry sunflower phosphatidylcholine with 70,0-97,0% concentration of the main substance</h3>
+					</div>
+				</div>
+
+			</div>
+
+			<div class='item-check'>
+				<span class='item-note'>View and/or download certificates</span>
+				<span class="item-info">
+					<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" target="_blank">[ View ]</a> 
+					<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" download="images/ck_dieticheskay_dobavka_lecitin.pdf">[ Download ]</a>
+				</span>
+			</div>
+
+			<a class="left left1 carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right right1 carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+
+	<!-- <br/><br/> -->
+	
+	<section id='effectiveness' class="section effectiveness">
+		<header>
+			<h2 class='section-title'>
+				<b>Effectiveness of use</b>
+			</h2>
+		</header>
+
+		<article class='article'>
+			<header>
+				<h3 class='article-title'>Lecithin in food industry</h3>
+			</header>
+			<aside class='aside'>
+				<div class='premium'>
+					<img class='section-image' src="images/premium5.png" alt='images/premium5.png' />
+				</div>
+			</aside>
+			<p>Lecithin is a natural additives (E 322) and, in its technological functions, it is an emulsifier and antioxidant.</p>
+			<p>The use of lecithin in the food industry is related to its ability to form and stabilize emulsions oil/water (different sauces and mayonnaises) and water/oil (margarines). Due to interaction of lecithin and structural components of dough (bakery and confectionary products) complex compounds are formed which play an important role in formation of the structure of partially prepared food and ready food products, slow down the process changes in high molecular substances of the crumb of bread when it is stored, improve rheological properties of dough as well as its resilience and elasticity. Addition of lecithin improves the rise of dough, makes it possible to use low gluten flour and to achieve more voluminous product outcome.</p>
+			<p>The ability of lecithin to stabilize suspensions is used in manufacturing food products with dried milk, cacao and extracts of coffee. Lecithin coating of the particles causes their hydrophilization, which leads both to their faster dissolving and to homogeneity and stability of suspensions.</p>
+			<p>Addition of lecithin has become mandatory in manufacturing chocolate, because it reduces the viscosity of the mix of fried cacao beans, sugar and cacao oil, reduces the time of mixing and saves cacao oil (addition of 0.5% of lecithin reduces viscosity by the same rate as addition of 5% of cacao oil).</p>
+			<p>More details are available here:</p>
+			<ol>
+				<li> (in Ukrainian) Аспекти застосування соняшникового лецитину у харчовій промисловості. Наукові праці ОНАХТ, вип. 36, т. 2, 2009р., с. 177-179.</li>
+				<li>(in Ukrainian) Використання сухого соняшникого лецитину при виробництві хлібобулочних виробів та маргаринів. Тематичний збірник наукових праць Донецького національного Університету економіки і торгівлі. - 2012. - Вип. 28. - с. 169-174.</li>
+			</ol>
+
+		</article>
+		
+		<article class='article'>
+			<header>
+				<h3 class='article-title'>Lecithin and its components in pharmacology</h3>
+			</header>
+			<p>Lecithin as a diet additive is used in food rations of people as an additional source of phospholipids in case of the following diseases:</p>
+
+			<ol class='farmUse'>
+				<li class='farmUse-examp'> Disturbed cerebral circulation, exhaust of the central or peripheral nervous system, vegetovascular dystonia, headaches, sleep disturbances, increased excitability and irritability, worsening of memory and attention focusing, chronical fatigue and decreased capacity of work;</li>
+				<li class='farmUse-examp'> Increased level of cholesterol in blood, atherosclerosis affecting vessels of different localization (brain, heart, peripheral arteries etc.), complex therapy of arrhythmia, ischemic heart disease and essential hypertension;</li>
+				<li class='farmUse-examp'> Diseases of pancreas, type 1 and type 2 diabetes;</li>
+				<li class='farmUse-examp'> Diseases of the liver, bile ducts, hepatoprotective properties in case of influence of toxic substances and alcohol, chronical hepatitis, cirrhosis;</li>
+				<li class='farmUse-examp'> Dysfunctions of kidneys, prophylactics of lithogenesis;</li>
+				<li class='farmUse-examp'> Prophylactics of fibrosis of the prostate and reduction of activity of spermatozoa;</li>
+				<li class='farmUse-examp'> Complex therapy of allergy, skin diseases, psoriasis, eczema, neurodermatitis, etc.</li>
+			</ol>
+		
+			<p>At present, scientific research and developments of technologies in the field of extraction of individual natural lipids (in particular, phosphatidylcholine) and creation of artificial lipid membranes – liposomes – are carried out in cooperation with the Scientific Research Institute of Medical and Biological Problems at Dnipropetrovsk State Medical Institute, Dnipropetrovsk, and the Institute of Biotechology and Genomics of the National Academy of Science of Ukraine, Kiev.</p>
+
+			<p>Obtained results as of 01.01.2015 are presented here:</p>
+			<ol>
+				<li>(in Ukrainian) Сучасні уявлення про біологічні властивості лецитину. Медичні перспективи, т. XV, 2, 2010г., с. 123-135.</li>
+				<li>(in Ukrainian) Біологічні властивості лецитину з соняшнику. Наукові праці ОНАХТ, вип. 42, т. 1, 2012р., с. 234-238.</li>
+				<li>(in Ukrainian) Лецитин – його біологічні властивості. Методичний посібник. Дніпропетровськ: - 2013. - 64с.</li>
+				<li>(in Ukrainian) Вплив соєвого та соняшникового лецитинів на показники функціонування печінки при інтоксикації тетрахлорметаном. Методичний посібник. Дніпропетровськ: - 2014. - с. 38.</li>
+				<li>(in Ukrainian) Токсикологічна характеристика лецитину, збагаченого фосфатидилетаноламіном. Методичний посібник. Дніпропетровськ: - 2014. - с. 42.</li>
+				<li>Technology of dry powder sunflower lecithin for food, feed and pharmaceutics// Presentation at 103 AOCS Annual Meeting, Long Beach, USA. - 2012.</li>
+				<li>Biological properties of Deoil Sunflower lecithin 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+				<li>Multiscale Molecular Simulation and Experimental investigation of Sunflower Phospholipids Liposomes Using for Scavenging Free Radicals. 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+				<li>Dry powder lecithin and liposomal nanoemulsions from sunflower. ILPS Phospholipid Congress, Rotterdam. - 2011.</li>
+				<li>(in Ukrainian) Патенти України: 
+					<ul>
+						<li>№ 86972, Бюл. № 1, 10.01.2014</li>
+						<li>№ 92313, Бюл. № 15, 11.08.2014.</li>
+					</ul>
+				</li>
+			</ol>
+		</article>
+
+		<article class='article'>
+
+			<header>
+				<h3 class='article-title'>Lecithin as a feed additive.</h3>
+			</header>
+			<aside class='aside'>
+				<div class='premium'>
+					<img class='section-image' src="images/premium4.png" alt="images/premium4.png"/>
+				</div>
+			</aside>
+
+			<p>Lecithin (essential phospholipids) is an ecologically pure natural product extracted from phosphatide concentrate of sunflower seeds. As a feed additive, it increases the energy level of the diet of animals, intensifies anabolic processes in the organisms of animals and improves immunobiological activity owing to the consumption of components of lecithin (phosphatidylcholine, unsaturated fatty acids and others).</p>
+			<p>Phospholipids are necessary components of all, without exception, cells of a living organism; they perform a number of functions, namely:</p>
+			<ul>
+				<li> serve as a structure depositing metabolic energy (there are no analogues in energy potential);</li>
+				<li> are a structural components of membranes, provide their elasticity, prevent formation of free radicals, increasing by this antioxidant defense of animals, and reduce negative influence of stress factors;</li>
+				<li> improve the transport capability of cell membranes, i.e., assist in absorption of nutrients of the feed and in growth and development of animals;</li>
+				<li> покращують кальцифікацію кісток та формування кістково-м'язової системи, процес кровотворення.</li>
+			</ul>
+			
+			<p>For animals, the most significant are unsaturated fatty acids, such as linoleic acid, which is not produced in organisms; therefore they have to be supplied with feed. In case of deficiency of this acid, growth gets suspended, resistance to infections and stresses weakens.</p>
+		
+			<p>Being a part of phospholipids of biological membranes, lecithin provides their elasticity and participates in the exchange of fats between the liver and fatty tissues. Presence of lecithin guarantees permanent outflow of fats from the liver into the blood stream, which prevents development of adipose infiltration of the liver or, in case of its dystrophy, increases its detoxification function.</p>
+
+			<p>Thus, lecithin is used for preparation of wholesome, enriched with energy and biologically active substances feeds with hepatoprotective properties for increasing resistance and general detoxification of organisms of animals in stressful situations.</p>
+
+			<p>Special tests helped to determine doses of intake of lecithin and compositions of formula feeds for feeding: </p>
+			<ul>
+				<li> broilers: 
+					<ul class='subList'>
+						<li>in the starting period;</li>
+						<li>in the finishing period;</li>
+					</ul>
+				</li>
+				<li> pregnant sows;</li>
+				<li> pigs on fattening;</li>
+				<li> carps, freshwater catfish, besters;</li>
+				<li> calves;</li>
+				<li> cows in calf;</li>
+				<li> fur-producing animals (minks)</li>
+				<li> adult dogs and cats.</li>
+			</ul>
+		
+			<p>More details are available here:</p>
+			<ol>
+				<li> (in Ukrainian) Лецитин як фактор одержання продукції тваринництва. К: Освіта України,2010, с. 114.</li>
+				<li> (in Ukrainian) Нові склади комбікормів для сільскогосподарських ,тварин, птиці та риби. Наукові праці ОНАХТ, випуск 36, т. 1, 2009р., с. 14-17.</li>
+				<li> (in Ukrainian) Ефективність застосування лецитину в рибництві. Тваринництво України, № 3, 2010р., с. 24-27.</li>
+				<li> (in Ukrainian) Використання лецитину як кормової добавки в раціонах молодняку свиней. Вісник інституту тваринництва центральних районів УААН, вип. 2, Дніпропетровськ, 2007р., с. 117-123.</li>
+				<li> Numbers of Ukrainian patents (in Ukrainian): 
+					<ul>
+						<li>№ 26705, Бюл. № 16, 10.10.2007г.</li>
+						<li>№ 32030, Бюл. № 8, 25.04.2008г.</li>
+						<li>№ 34328, Бюл. № 15, 11.08.2008г.</li>
+						<li>№ 35928, Бюл. № 19, 10.10.2008г.</li>
+						<li>№ 56982, Бюл. № 3, 10.02.2011г.</li>
+						<li>№ 56993, Бюл. № 3, 10.02.2011г.</li>
+						<li>№ 56994, Бюл. № 3, 10.02.2011г.</li>
+						<li>№ 71085. Бюл. № 13, 10.07.2012г.</li>
+					</ul>
+				</li>
+			</ol>
+		</article>
+
+	</section>
+
+	<section id='ecosolutions' class="section ecosolutions">
+		<header>
+			<h2 class='section-title'>
+				<b>Safe Solutions</b>
+			</h2>
+		</header>
+		<article class='article'>
+			<h2 hidden="hidden">Переваги</h2>
+			<p>
+				Advantages of deoiled sunflower lecithin and related products manufactured by BIOLER:</p>
+				<ul>
+					<li>GMO free;</li> 
+					<li>Allergen-free, therefore, unlike soy lecithin, do not require special marking according to:
+						<ul>
+							<li>Food Allergen Labeling and consumer Protection Act of 2004 (Public Law 108-282);</li>
+							<li>EU Regulation 1169-2011.</li>
+						</ul>
+					</li>
+					<li>Phytoestrogen-free.</li>
+				</ul>
+
+				<div id="myCarousel2" class="carousel slide" data-interval="false" data-ride="carousel2">
+				
+					<div class="carousel-inner" role="listbox">
+						
+						<div class="item active">
+							<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
+						</div>
+
+						<div class="item">
+							<img src="images/page4_pic7.png" alt="Dry sunflower phosphatidylcholine with 70,0-97,0% concentration of the main substance" class='center-block item-image'/>
+						</div>
+
+					</div>
+						
+					<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+		</article>
+	</section>
+
+	<section id='authorizations' class="section authorizations">
+		<header>
+			<h2 class='section-title'>
+				<b>Authorizations</b>
+			</h2>
+		</header>
+		<article class='article'>
+			<div id="myCarousel3" class="carousel slide" data-interval="false" data-ride="carousel3">
+			
+				<div class="carousel-inner" role="listbox">
+					
+					<div class="item active">
+						<img src="images/Kosher_certificate_2023.jpg" alt="Kosher_certificate_2023" class='center-block item-image'/>
+						<div>
+							<h3 class="item-title">Kosher certificate</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/ISO_22000_2018_2021.jpg" alt="ISO_22000_2018_2021" class='center-block item-image'/>
+						<div>
+							<h3 class="item-title">Certificate ISO 22000:2018 </h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/tech_umovy1str.jpg" alt="tech_umovy1str" class='center-block item-image'/>
+						<div>
+							<h3 class="item-title">Lecithin</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/tech_umovy1str_fosfat.jpg" alt="tech_umovy1str_fosfat" class='center-block item-image'/>
+						<div>
+							<h3 class="item-title">
+								Phosphatidylcholine(L-<span class='alpha'>&#945;</span>-lecithin) from phosphatide concentrate 50% solution
+							</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/tech_umovy1str_oliya.jpg" alt="tech_umovy1str_oliya" class='center-block item-image'/>
+						<div>
+							<h3 class="item-title">Concentrated phosphatide oil</h3>
+						</div>
+					</div>
+
+					
+				</div>
+
+				<div class='item-check'>
+					<span class='item-note'>View and/or download certificates</span>
+					<span class="item-watch">
+						<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank">[View]</a> 
+						<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank" download="images/Kosher_certificate_2023.jpg">[Download]</a>
+					</span>
+				</div>
+
+				<a class="left left3 carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right right3 carousel-control" href="#myCarousel3" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+			</div>
+			
+		</article>
+	</section>
+
+	<section id='about' class="section about">
+		<header>
+			<h2 class='section-title'>
+				<b>About Us</b>
+			</h2>
+		</header>
+
+		<article class='article'>
+			<h2 hidden="hidden">ТОВ &#171;НВП &#171;БІОЛЕР&#187;</h2>
+
+			<p>Limited liability partnership OOO &#171;NPP &#171;BIOLER&#187; (Scientific and Manufacturing Enterprise BIOLER) embodies a union of science and business. It was founded on the base of 35-year experience of development and implementation of innovative technologies for extraction of sunflower phospholipids. Technologies and methods of applications of extracted products are protected with 18 patents of Ukraine. The company was registered in 2013. Its founders are private persons.</p>
+			<p>The enterprise is located near Dnipro city, Ukraine on the area of one hectare (2.47 acres).</p>
+
+			<p>Tests of sunflower deoiled lecithin, dry phosphatidylcholine and its solutions carried out in Germany, France, South Korea, Israel, Spain and the USA proved conformity of our products with the world's best analogues.</p>
+			
+			<p>The production was built with the receipt of all regulatory and technical permit documentation provided for by the legislation of Ukraine.</p>
+		</article>
+	</section>
+
+	<footer class='footer'>
+		<div class='contacts'>
+			<div class='adress'>
+				<p>Name: 
+					<b>Scientific and Manufacturing Enterprise BIOLER</b>
+				</p>
+				<p>Address: 
+					<b>1a Stepnaya street, Novoaleksandrovka village, Dnipropetrovsk oblast, 52070 Ukraine</b>
+				</p>
+				<p>ПPostal address: 
+					<b>box 2263, Dnipro city, 49038 Ukraine</b>
+				</p>
+			</div>
+			<div class='info'>
+				<p>
+					Phone/FAX:
+					<a href="tel:+380567676163">
+						<b>+ 38 056 767 61 63</b>
+					</a>
+				</p>
+				<p>
+					General inquiries:
+					<a href="mailto:dacs@optima.com.ua">
+						<b>dacs@optima.com.ua</b>
+					</a>
+				</p>
+				<p>
+					Sales:
+					<a href="mailto:tov@biolerlecithin.com">
+						<b>tov@biolerlecithin.com</b>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class='copyright'>
+			<span class='LTD'>&#169; 2022 Limited liability partnership OOO &#171;NPP &#171;BIOLER&#187; (Scientific and Manufacturing Enterprise BIOLER)</span>
+			<p>All rights reserved</p>
+		</div>
+	</footer>
+</body>

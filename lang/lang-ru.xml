@@ -1,0 +1,100 @@
+<body class='body'>
+
+		<header class='header'>
+			<div class='logo'>
+				<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
+				<div class='header2'>
+					<h2>Їжа, корма, фармацевтичні фосфоліпіди</h2>
+					<h2>Технологія фосфоліпідів соняшнику</h2>
+				</div>
+				
+			</div>
+			<!-- <nav>
+				<ul id='navbar' class='navbar'>
+					<li><a href="#">Головна</a></li>
+					<li><a href="#products">Продукція</a></li>
+					<li><a href="#effectiveness">Ефективність застосування</a></li>
+					<li><a href="#ecosolutions">Еко рішення</a></li>
+					<li><a href="#authorizations">Дозвільна документація</a></li>
+					<li><a href="#about">Про нас</a></li>
+				</ul>
+			</nav> -->
+			<nav class="navbar">
+				
+				<button type="button" class="navbar-toggle collapsed btn-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			   
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li>
+							<select class="lang" onchange="setLanguage(this.value)">
+								<option value="UA">UA</option>
+								<option value="EN">EN</option>
+								<option value="ru" selected="selected">ru</option>
+							</select>
+						</li>
+						<li class="active"><a href="#">Головна <span class="sr-only">(current)</span></a></li>
+						<li><a href="#products">Продукція</a></li>
+						<li><a href="#effectiveness">Ефективність застосування</a></li>
+						<li><a href="#ecosolutions">Еко рішення</a></li>
+						<li><a href="#authorizations">Дозвільна документація</a></li>
+						<li><a href="#about">Про нас</a></li>
+
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section id="products" class="section">
+			<div class='fckwarship'>
+				<img class='fckwarship-img' src='./images/fuckwarship.jpg' alt='russian_warship_go_f*ck_yourself'/>
+				<h2><b>Российский военный корабль идёт на... дно</b></h2>
+			</div>
+		</section>
+
+		<section id='effectiveness' class="section">
+			<div class='fckwarship'>
+				<video controls="controls" onloadstart="this.volume=0.5;">
+					<source src="./video/fckrussianwarship.mp4" type="video/mp4"/>
+				</video>
+			</div>
+
+		</section>
+
+		<section id='ecosolutions' class="section">
+			<div class='Glory'>
+				<h1><STRONG>Слава Україні! Героям Слава!</STRONG></h1>
+				<h1><STRONG>Слава ЗСУ! Слава Нації!</STRONG></h1>
+			</div>
+		</section>
+
+		<footer class='footer'>
+			<div class='copyright'>
+				<span class='LTD'>&#169; 2022 ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187; </span>
+				<p>Усі права захищені</p>
+			</div>
+		</footer>
+		<style>
+			.Glory,
+			.fckwarship{
+				text-align: center;
+			}
+			.fckwarship img{
+
+				width: 50vw;
+				height: 30vw;
+			}
+			.fckwarship h2{
+				font-size: 3vw;
+			}
+			.fckwarship video{
+				width: 38vw;
+				height: 28vw;
+			}
+		</style>
+	</body>
