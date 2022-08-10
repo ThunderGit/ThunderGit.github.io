@@ -51,7 +51,7 @@ $(`.right3`).click(()=>{
 
 const setLanguage = selectedLang => loadXML(selectedLang);
 
-const loadXML = (lang) => {
+const loadXML = lang => {
 
 	const xhttp = new XMLHttpRequest();
 		xhttp.onload = function() {
@@ -61,6 +61,7 @@ const loadXML = (lang) => {
 	xhttp.open(`GET`, `./lang/lang-${lang}.xml`);
 	xhttp.send();
 };
+
 const getXML = xml => {
 
 	const bodyXML = xml.responseXML.getElementsByClassName(`body`)[0];	
