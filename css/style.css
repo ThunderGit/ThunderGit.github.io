@@ -60,9 +60,20 @@ html,body{
 
 .navbar li{
 	list-style-type: none;
-	padding: 2.5vw 0.5vw;
+	padding: 2.0vw 0.4vw;
 	font-size: 1.4vw;
 	text-transform: uppercase;
+	position: relative;
+}
+.navbar li:not(:first-child):after {
+	content: " ";
+	position: absolute;
+	border-right: 0.2vw solid rgba(2,36,163);
+	top: 25%;
+	right: 0;
+	height: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .navbar a {
@@ -85,6 +96,7 @@ html,body{
 	background-color: rgba(0,194,255);
 	color: rgba(2,36,163);
 	border: none;
+	outline: none;
 }
 
 .lang:focus,
@@ -139,7 +151,7 @@ html,body{
 
 .section-image{
 	width: 20vw;
-	height: 60vw;
+	height: 55vw;
 }
 
 .article{
@@ -280,7 +292,7 @@ html,body{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 
-	background-color: rgba(0,70,16);
+	background-color: rgba(0,60,16);
 	color: rgba(0,194,255);
 	padding: 1vw 0;
 	font-size: 1.25vw;
@@ -315,7 +327,7 @@ html,body{
 /**sections**/
 
 .header::before{
-	background-image: url("../images/headerfooter.jpg");
+	background-image: url("../images/header-sun.jpg");
 	/*opacity: 0.2;*/
 }
 .products::before{
@@ -335,7 +347,7 @@ html,body{
 	background-image: url("../images/2.jpg");
 }
 .footer::before{
-	background-image: url("../images/footer2.jpg");
+	background-image: url("../images/footer-sun.jpg");
 }
 /*==========================================*/
 
@@ -445,7 +457,7 @@ html,body{
 	}
 
 	.navbar li{
-		padding: 1vw;
+		/*padding: 2vw 0.4vw;*/
 	}
 
 	.item-title,
