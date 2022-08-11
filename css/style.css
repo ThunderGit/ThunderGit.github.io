@@ -65,6 +65,7 @@ html,body{
 	text-transform: uppercase;
 	position: relative;
 }
+
 .navbar li:not(:first-child):after {
 	content: " ";
 	position: absolute;
@@ -93,15 +94,23 @@ html,body{
 
 .lang{
 	appearance: none;
-	background-color: rgba(0,194,255);
-	color: rgba(2,36,163);
-	border: none;
+	padding: 0 0.3vw;
+	border: 1px solid rgba(2,36,163);
+	border-radius: 2px;
+	background-color: rgba(2,36,163);
+	color: rgba(0,194,255);
 	outline: none;
 }
 
 .lang:focus,
 .lang:active{
 	outline: none;
+}
+
+.lang,
+.lang option{
+	text-align: center;
+	font-weight: bolder;
 }
 
 .section{ 
