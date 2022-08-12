@@ -370,7 +370,9 @@ html,body{
 	.item-watch,
 	.LTD
 	{
-		font-size: 6vw;
+		font-size: 12vw;
+		background-color:gold;
+
 	}
 
 	ul{
