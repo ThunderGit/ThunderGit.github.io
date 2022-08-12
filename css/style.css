@@ -363,16 +363,12 @@ html,body{
 /****** Responsive styles ******/
 @media only screen and (max-width: 880px){
 
-	p,li,
-	.item-title,
-	.item-info,
-	.item-check,
-	.item-watch,
+	.article p, .article li,
+	.item-title, .item-info,
+	.item-check, .item-watch,
 	.LTD
 	{
-		font-size: 12vw;
-		background-color:gold;
-
+		font-size: 4vw;
 	}
 
 	ul{
@@ -386,12 +382,12 @@ html,body{
 	.item-check{
 		padding: 0;
 		margin: 0;
-		font-size: 3vw;
+		font-size: 1.5vw;
 	}
 
 	.navbar li{
 		padding:  2vw 0.5vw;
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 
 	.header2 h2,
@@ -408,7 +404,7 @@ html,body{
 	}
 
 	.section-title{
-		padding: 4vw 0 2vw 0;
+		padding: 8vw 0 2vw 0;
 	}
 
 	.article-title{
