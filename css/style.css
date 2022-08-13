@@ -366,6 +366,7 @@ html,body{
 	.article p, .article li,
 	.item-title, .item-info,
 	.item-check, .item-watch,
+	.contacts p, .info p
 	.LTD
 	{
 		font-size: 3.75vw;
@@ -427,7 +428,7 @@ html,body{
 
 	.section-image{
 		width: 30vw;
-		height: 92vw;
+		height: 95vw;
 	}
 
 	.section-image__about{
