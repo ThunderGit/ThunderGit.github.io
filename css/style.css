@@ -368,7 +368,7 @@ html,body{
 	.item-check, .item-watch,
 	.LTD
 	{
-		font-size: 8vw;
+		font-size: 3.75vw;
 	}
 
 	ul{
@@ -382,18 +382,17 @@ html,body{
 	.item-check{
 		padding: 0;
 		margin: 0;
-		font-size: 1.5vw;
 	}
 
 	.navbar li{
 		padding:  2vw 0.5vw;
-		font-size: 3.5vw;
+		font-size: 3.75vw;
 	}
 
 	.header2 h2,
 	.article-title,
 	.section-title{
-		font-size: 4vw;
+		font-size: 4.5vw;
 		font-weight: bold;
 	}
 
@@ -427,8 +426,8 @@ html,body{
 	}
 
 	.section-image{
-		width: 25vw;
-		height: 90vw;
+		width: 30vw;
+		height: 92vw;
 	}
 
 	.section-image__about{
