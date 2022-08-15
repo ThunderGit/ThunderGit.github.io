@@ -446,12 +446,6 @@ html,body{
 
 	.contacts{
 		padding: 4vw;
-	}
-}
-
-@media only screen and (max-width: 860px){
-
-	.contacts{
 		justify-content: flex-start;
 	}
 }
