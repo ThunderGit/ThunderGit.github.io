@@ -360,7 +360,7 @@ html,body{
 /*==========================================*/
 
 /****** Responsive styles ******/
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 760px){
 
 	.article p, .article li,
 	.item-title, .item-info,
@@ -446,15 +446,9 @@ html,body{
 
 	.contacts{
 		padding: 4vw;
-	}
-
-}
-
-@media only screen and (max-width: 960px){
-
-	.contacts{
 		justify-content: flex-start;
 	}
+
 }
 
 @media only screen and (min-width: 1980px){
