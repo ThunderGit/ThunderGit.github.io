@@ -218,7 +218,7 @@ html,body{
 }
 
 .item-caption{
-	padding-bottom: 3vw;
+	padding-bottom: 4.25vw;
 	height: 3vw;
 }
 
@@ -337,7 +337,6 @@ html,body{
 
 .header::before{
 	background-image: url("../images/header-sun.jpg");
-	/*opacity: 0.2;*/
 }
 .products::before{
 	background-image: url("../images/products.jpg");
@@ -364,16 +363,20 @@ html,body{
 @media only screen and (max-width: 980px){
 
 	.article p, .article li,
-	.item-title, .item-note,
-	.item-info, .item-check, 
-	.item-watch, .contacts p, 
-	.info p, .LTD
+	.item-title, .item-info,
+	.item-check, .item-watch,
+	.item-note, .info p,
+	.address p, .copyright
 	{
-		font-size: 3.75vw;
+		font-size: 4vw;
 	}
 
 	ul{
-		padding: 0 4vw;
+		padding: 0 6vw;
+	}
+
+	.item-caption{
+		padding-bottom: 16vw;
 	}
 
 	.item-watch{
@@ -383,17 +386,18 @@ html,body{
 	.item-check{
 		padding: 0;
 		margin: 0;
+		font-size: 1.5vw;
 	}
 
 	.navbar li{
-		padding:  2vw 0.5vw;
-		font-size: 3.75vw;
+		padding: 2vw 0.75vw;
+		font-size: 3.5vw;
 	}
 
 	.header2 h2,
 	.article-title,
 	.section-title{
-		font-size: 4.5vw;
+		font-size: 4vw;
 		font-weight: bold;
 	}
 
@@ -427,8 +431,8 @@ html,body{
 	}
 
 	.section-image{
-		width: 30vw;
-		height: 95vw;
+		width: 25vw;
+		height: 90vw;
 	}
 
 	.section-image__about{
