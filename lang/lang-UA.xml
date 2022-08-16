@@ -34,7 +34,6 @@
 						<select class="lang" onchange="setLanguage(this.value)">
 							<option value="UA" selected="selected">UA</option>
 							<option value="EN">EN</option>
-							<option value="ru">ru</option>
 						</select>
 					</li>
 					<li class="active"><a href="#">Головна <span class="sr-only">(current)</span></a></li>
