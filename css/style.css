@@ -24,8 +24,8 @@ html,body{
 
 .logo-gif{
 	padding: 1vw 0;
-	width: 320px;
-	height: auto;
+	width: 20vw;
+	height: 14vw;
 	cursor: pointer;
 }
 
@@ -422,8 +422,8 @@ html,body{
 	}
 
 	.logo-gif{
-		width: 100%;
-		height: auto;
+		width: 36vw;
+		height: 24vw;
 	}
 
 	.item-image{
