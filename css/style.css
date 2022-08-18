@@ -133,9 +133,9 @@ html,body{
 	cursor: pointer;
 }
 
-.btn-scroll:hover{
+/*.btn-scroll:hover{
 	background-color: rgba(0,150,255);
-}
+}*/
 
 .section{ 
 	position: relative;
