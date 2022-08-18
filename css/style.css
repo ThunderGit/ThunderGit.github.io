@@ -473,6 +473,14 @@ html,body{
 		justify-content: flex-start;
 	}
 
+	.address{
+		padding-bottom: 6vw;
+	}
+	
+	.address p b{
+		display: block;
+	}
+
 }
 
 @media only screen and (min-width: 1980px){
