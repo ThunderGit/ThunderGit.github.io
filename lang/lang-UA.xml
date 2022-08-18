@@ -465,5 +465,5 @@
 			<p>Усі права захищені</p>
 		</div>
 	</footer>
-	<button class='btn-scroll' onclick='scrollToTop()' title='Прокрутити нагору'>&#8593;</button>
+	<button class='btn-scroll' onclick='scrollToTop()'>&#8593;</button>
 </body>
