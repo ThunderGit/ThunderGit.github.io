@@ -27,6 +27,7 @@ html,body{
 	width: 20vw;
 	height: 14vw;
 	cursor: pointer;
+	outline: none;
 }
 
 .header2{
@@ -112,6 +113,28 @@ html,body{
 .lang option{
 	text-align: center;
 	font-weight: bolder;
+}
+
+.btn-scroll{
+	display: none;
+	position: fixed;	
+	bottom: 2vw;
+	right: 2vw;
+	z-index: 99;
+	font-size: 2.5vw;
+	padding: 0 0.5vw;
+	width: 4vw;
+	height: 4vw;
+	background-color: rgba(0,6,114);
+	color: rgba(255,255,255);
+	border: none;
+	border-radius: 10vw;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-scroll:hover{
+	background-color: rgba(0,150,255);
 }
 
 .section{ 
@@ -361,7 +384,7 @@ html,body{
 /*==========================================*/
 
 /****** Responsive styles ******/
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 990px){
 
 	.article p, .article li,
 	.item-title, .item-info,
@@ -372,8 +395,8 @@ html,body{
 		font-size: 4vw;
 	}
 
-	ul,ol{
-		padding: 0 4vw;
+	ul{
+		padding: 0 6vw;
 	}
 
 	.item-caption{
