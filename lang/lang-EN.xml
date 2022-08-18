@@ -33,6 +33,7 @@
 						<select class="lang" onchange="setLanguage(this.value)">
 							<option value="UA">UA</option>
 							<option value="EN" selected="selected">EN</option>
+							<option value="ru">ru</option>
 						</select>
 					</li>
 					<li class="active"><a href="#">Main Page <span class="sr-only">(current)</span></a></li>
@@ -458,4 +459,5 @@
 			<p>All rights reserved</p>
 		</div>
 	</footer>
+	<button class='btn-scroll' onclick='scrollToTop()' title='Scroll to Top'>&#8593;</button>
 </body>
