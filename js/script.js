@@ -1,3 +1,5 @@
+/*=========== Carousel ===========*/
+
 let prevHref = (item, index, array) => {
 	index = (index !== 0) ? (index - 1) : (array.length-1);
 	item.attr(`href`, array[index]);
@@ -49,6 +51,9 @@ $(`.right3`).click( () => {
 	certsIndex = nextHref($('.item-watch .item-title'), certsIndex, certs);
 });
 
+
+/*=========== Language ===========*/
+
 const setLanguage = selectedLang => loadXML(selectedLang);
 
 const loadXML = lang => {
@@ -64,9 +69,15 @@ const loadXML = lang => {
 
 const getXML = xml => {
 
-	const bodyXML = xml.responseXML.getElementsByClassName(`body`)[0];	
+	const titileXML = xml.responseXML.getElementsByClassName(`title`)[0];
+	const bodyXML = xml.responseXML.getElementsByClassName(`body`)[0];
+	
+	$(`.title`).html(titileXML.innerHTML);
 	$(`.body`).html(bodyXML.innerHTML);
 };
+
+
+/*=========== Scroll-to-Top button ===========*/
 
 const btnScroll = $(`.btn-scroll`);
 const topSize = 260;
