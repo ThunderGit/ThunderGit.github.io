@@ -1,16 +1,16 @@
 html,body{
 	margin: 0 auto;
-	font-family: Garamond, serif !important;
+	font-family: Palatino, "Palatino Linotype", Garamond, serif !important;
 }
 
 .header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-
-	background-color: rgba(0,6,114);
+	background-color: rgba(181,236,255);
 	/*color: rgba(251,219,1);*/
-	color: rgba(0,224,255);
+	/*color: rgba(0,224,255);*/
+	color: rgba(2,36,163);
 	margin-bottom: -20px;
 }
 
@@ -50,7 +50,7 @@ html,body{
 	list-style-type: none;
 	overflow: hidden;
 	border-radius: 0 !important;
-	background-color: rgba(0,194,255);
+	background-color: rgba(230,246,46);
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -99,7 +99,7 @@ html,body{
 	border: 1px solid rgba(2,36,163);
 	border-radius: 2px;
 	background-color: rgba(2,36,163);
-	color: rgba(0,194,255);
+	color: rgba(230,246,46);
 	outline: none;
 	cursor: pointer;
 }
@@ -122,10 +122,10 @@ html,body{
 	right: 2vw;
 	z-index: 99;
 	font-size: 2.5vw;
-	padding: 0 0.5vw;
+	padding: 0 0.5vw 1vw 0.5vw;
 	width: 4vw;
 	height: 4vw;
-	background-color: rgba(0,6,114);
+	background-color: rgba(0,116,214);
 	color: rgba(255,255,255);
 	border: none;
 	border-radius: 10vw;
@@ -141,7 +141,7 @@ html,body{
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	color: rgba(0,194,255);
+	/*color: rgba(0,194,255);*/
 	padding: 2vw;
 }
 
@@ -163,7 +163,7 @@ html,body{
 }
 
 .section:nth-child(even){
-	background-color: rgba(0,97,154);
+	background-color: rgba(181,236,255);
 }
 
 .section-title{
@@ -179,7 +179,7 @@ html,body{
 
 .section:nth-child(even) .section-title{
 	position: relative;
-	color: rgba(251,219,1);
+	color: rgba(0,75,0);
 }
 
 .section-image{
@@ -204,7 +204,7 @@ html,body{
 }
 
 .section:nth-child(odd) .article:nth-child(odd){
-	color: rgba(0,100,0);
+	color: rgba(0,75,0);
 }
 
 .section:nth-child(odd) .article:nth-child(even){
@@ -212,7 +212,7 @@ html,body{
 }
 
 .section:nth-child(even){
-	color: rgba(251,219,1);
+	color: rgba(0,75,0);
 }
 
 .item{
@@ -234,7 +234,7 @@ html,body{
 }
 
 .section:nth-child(even) .item-title{	
-	color: rgba(251,219,1);
+	color: rgba(0,75,0);
 }
 
 .section:nth-child(odd) .item-title{	
@@ -272,11 +272,19 @@ html,body{
 }
 
 .glyphicon{
-	color: rgba(0,244,255,0.95);
-} 
+	color: rgba(0,154,0,0.95);
+}
 
 .glyphicon:hover{
-	color: rgba(0,244,255,1.0);
+	color: rgba(0,154,0,1.0);
+}
+
+.glyphicon3{
+	color: rgba(0,154,254,0.95);
+}
+
+.glyphicon3:hover{
+	color: rgba(0,154,254,1.0);
 }
 
 .section-title,
@@ -325,8 +333,8 @@ html,body{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 
-	background-color: rgba(0,60,16);
-	color: rgba(0,194,255);
+	background-color: rgba(214,224,73);
+	color: rgba(2,36,163);
 	padding: 1vw 0;
 	font-size: 1.25vw;
 }
@@ -341,13 +349,13 @@ html,body{
 }
 
 .info a{
-	color: rgba(251,219,1);
+	color: rgba(2,36,163);
 	text-decoration: none;
 }
 
 .info a:hover,
 .info a:focus{
-	color: rgba(0,220,0);
+	color: rgba(133,215,252);
 	text-decoration: underline;
 }
 
@@ -364,7 +372,6 @@ html,body{
 }
 .products::before{
 	background-image: url("../images/products.jpg");
-	opacity: 0.5;
 }
 .effectiveness::before{
 	background-image: url("../images/effectiveness7.jpg");
@@ -379,7 +386,9 @@ html,body{
 	background-image: url("../images/2.jpg");
 }
 .footer::before{
-	background-image: url("../images/footer-sun.jpg");
+	background-image: url("../images/footer-sun2.jpg");
+	opacity: 0.5;
+	background-position: top;
 }
 /*==========================================*/
 
