@@ -355,7 +355,7 @@ html,body{
 
 .info a:hover,
 .info a:focus{
-	color: rgba(133,215,252);
+	color: rgba(0,100,0);
 	text-decoration: underline;
 }
 
