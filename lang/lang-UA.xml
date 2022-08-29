@@ -1,469 +1,472 @@
-<body class='body body-UA'>
-	<header class='header'>
-		<div class='logo'>
-			<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
-			<div class='header2'>
-				<h2>Їжа, корма, фармацевтичні фосфоліпіди</h2>
-				<h2>Технологія фосфоліпідів соняшнику</h2>
+<content lang="UA">
+	<title class='title title-UA'>Лецитин із соняшника знежирений у порошку</title>
+	<body class='body body-UA'>
+		<header class='header'>
+			<div class='logo'>
+				<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
+				<div class='header2'>
+					<h2>Їжа, корма, фармацевтичні фосфоліпіди</h2>
+					<h2>Технологія фосфоліпідів соняшнику</h2>
+				</div>
+				
 			</div>
-			
-		</div>
-		<!-- <nav>
-			<ul id='navbar' class='navbar'>
-				<li><a href="#">Головна</a></li>
-				<li><a href="#products">Продукція</a></li>
-				<li><a href="#effectiveness">Ефективність застосування</a></li>
-				<li><a href="#ecosolutions">Еко рішення</a></li>
-				<li><a href="#authorizations">Дозвільна документація</a></li>
-				<li><a href="#about">Про нас</a></li>
-			</ul>
-		</nav> -->
-		<nav class="navbar">
-			
-			<button type="button" class="navbar-toggle collapsed btn-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-		   
-
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="navbar-nav">
-					<li>
-						<select class="lang" onchange="setLanguage(this.value)">
-							<option value="UA" selected="selected">UA</option>
-							<option value="EN">EN</option>
-							<option value="ru">ru</option>
-						</select>
-					</li>
-					<li class="active"><a href="#">Головна <span class="sr-only">(current)</span></a></li>
+			<!-- <nav>
+				<ul id='navbar' class='navbar'>
+					<li><a href="#">Головна</a></li>
 					<li><a href="#products">Продукція</a></li>
 					<li><a href="#effectiveness">Ефективність застосування</a></li>
 					<li><a href="#ecosolutions">Еко рішення</a></li>
 					<li><a href="#authorizations">Дозвільна документація</a></li>
 					<li><a href="#about">Про нас</a></li>
-
 				</ul>
-			</div>
-		</nav>
-	</header>
-
-	<section id="products" class="section products">
-		<header>
-			<h2 class='section-title'>
-				<b>Продукція</b>
-			</h2>
-		</header>
-		<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
-			
-			<div class="carousel-inner" role="listbox">
+			</nav> -->
+			<nav class="navbar">
 				
-				<div class="item active">
-					<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">Дієтичний лецитин</h3>
-					</div>
+				<button type="button" class="navbar-toggle collapsed btn-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			   
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li>
+							<select class="lang" onchange="setLanguage(this.value)">
+								<option value="UA" selected="selected">UA</option>
+								<option value="EN">EN</option>
+								<option value="ru">ru</option>
+							</select>
+						</li>
+						<li class="active"><a href="#">Головна <span class="sr-only">(current)</span></a></li>
+						<li><a href="#products">Продукція</a></li>
+						<li><a href="#effectiveness">Ефективність застосування</a></li>
+						<li><a href="#ecosolutions">Еко рішення</a></li>
+						<li><a href="#authorizations">Дозвільна документація</a></li>
+						<li><a href="#about">Про нас</a></li>
+
+					</ul>
 				</div>
-
-				<div class="item">
-					<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">50% розчин фосфатидилхоліну в етиловому спирті</h3>
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">50% розчин фосфатидилхоліну в ізопропіловому спирті</h3>
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">Олія концентрату фосфатидів</h3>
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">Кормовий лецитин</h3>
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">Харчовий лецитин</h3>
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="images/page4_pic7.png" alt="сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%" class='center-block item-image'/>
-					<div class='item-caption'>
-						<h3 class="item-title">Сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%</h3>
-					</div>
-				</div>
-
-			</div>
-
-			<div class='item-check'>
-				<span class='item-note'>Переглянути та завантажити сертифікати Ви можете за посиланнями нижче</span>
-				<span class="item-info">
-					<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" target="_blank">[ перегляд ]</a> 
-					<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" download="images/ck_dieticheskay_dobavka_lecitin.pdf">[ завантажити ]</a>
-				</span>
-			</div>
-
-			<a class="left left1 carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right right1 carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-	</section>
-
-	<!-- <br/><br/> -->
-	
-	<section id='effectiveness' class="section effectiveness">
-		<header>
-			<h2 class='section-title'>
-				<b>Ефективність застосування</b>
-			</h2>
+			</nav>
 		</header>
 
-		<article class='article'>
+		<section id="products" class="section products">
 			<header>
-				<h3 class='article-title'>Застосування лецитину в харчовій промисловості</h3>
+				<h2 class='section-title'>
+					<b>Продукція</b>
+				</h2>
 			</header>
-			<aside class='aside'>
-				<div class='premium'>
-					<img class='section-image' src="images/premium5.png" alt='images/premium5.png'/>
-				</div>
-			</aside>
-			<p>Лецитин відноситься до природних харчових добавок (Е 322), а за своїми технологічними функціями &#8211; до емульгаторів та антиоксидантів.</p>
-			<p>Використання лецитину в харчовій промисловості пов'язане з його здатністю утворювати та стабілізувати емульсії масло/вода (різні соуси та майонези) та вода/масло (маргарини). За рахунок взаємодії лецитину та структурних компонентів тіста (хлібобулочні та кондитерські вироби) утворюються комплексні сполуки, які відіграють важливу роль у формуванні структури напівфабрикатів та якості готових виробів, уповільнюють процес зміни високополімерних речовин м'якушки хліба при зберіганні, покращують реологічні властивості тіста, його пружність та еластичність. Добавка лецитину полегшує підйом жирного тіста, дає можливість застосовувати збіднене клейковиною борошно, а також отримувати збільшений об'ємний вихід продукту.</p>
-			<p>Здатність лецитину стабілізувати суспензії використовується при приготуванні харчових продуктів із сухим молоком, какао, екстрактами кави. Завдяки лецитиновому шару поверхня сухих частинок гідрофілізується, що призводить як до прискорення розчинності, так і до однорідності та стабільності суспензій.</p>
-			<p>Добавка лецитину стала обов'язковою при виготовленні шоколаду, так як знижує в'язкість суміші обсмажених какао бобів, цукру та олії какао, скорочує час змішування та економить масло какао (добавка 0,5% лецитину веде до такого ж зниження в'язкості, як 5% олія какао).</p>
-			<p>З отриманими результатами можна ознайомитись:</p>
-			<ol>
-				<li>Аспекти застосування соняшникового лецитину у харчовій промисловості. Наукові праці ОНАХТ, вип. 36, т. 2, 2009р., с. 177-179.</li>
-				<li>Використання сухого соняшникого лецитину при виробництві хлібобулочних виробів та маргаринів. Тематичний збірник наукових праць Донецького національного Університету економіки і торгівлі. - 2012. - Вип. 28. - с. 169-174.</li>
-			</ol>
-
-		</article>
-		
-		<article class='article'>
-			<header>
-				<h3 class='article-title'>Використання лецитину та його компонентів у фармакології.</h3>
-			</header>
-			<p>Дієтична добавка &#171;Лецитин&#187; використовується в раціоні харчування населення як додаткове джерело фосфоліпідів при наступних захворюваннях:</p>
-
-			<ol class='farmUse'>
-				<li class='farmUse-examp'> порушення мозкового кровообігу, виснаження центральної та периферичної нервової системи, вегето-судинної дистонії, головних болях, розладах сну, підвищеної збудливості та дратівливості, погіршення пам'яті та концентрації уваги, хронічної втоми, зниженої працездатності;</li>
-				<li class='farmUse-examp'> підвищений рівень холестерину в крові, атеросклероз із ураженням судин різної локалізації (мозку, серця, периферичних артерій та ін.), комплексне лікування розладів серцевого ритму, ішемічної хвороби серця, гіпертонічної хвороби;</li>
-				<li class='farmUse-examp'> захворювання підшлункової залози, цукровий діабет І-ІІ типу;</li>
-				<li class='farmUse-examp'> захворювання печінки, жовчовивідних шляхів, гепатопротекторна дія при впливі токсичних речовин, алкоголю, хронічний гепатит, цироз;</li>
-				<li class='farmUse-examp'> порушення роботи нирок, профілактика каменеутворення;</li>
-				<li class='farmUse-examp'> профілактика фіброзу передміхурової залози, зниження рухливості сперматозоїдів;</li>
-				<li class='farmUse-examp'> комплексна терапія алергії, захворювань шкіри, псоріазу, екземи, нейродерміту та ін.</li>
-			</ol>
-		
-			<p>В даний час наукові дослідження та технологічні розробки в галузі виділення індивідуальних природних ліпідів (зокрема, фосфатидилхоліну) та створення штучних ліпідних мембран &#8211; ліпосом проводяться спільно з науково-дослідним інститутом медико-біологічних проблем ДДМА м. Дніпро та Інститутом біотехнології та геноміки НАН України м. Київ.</p>
-
-			<p>Із отриманими результатами (станом на 01.01.2015р.) можна ознайомитись:</p>
-			<ol>
-				<li>Сучасні уявлення про біологічні властивості лецитину. Медичні перспективи, т. XV, 2, 2010г., с. 123-135.</li>
-				<li>Біологічні властивості лецитину з соняшнику. Наукові праці ОНАХТ, вип. 42, т. 1, 2012р., с. 234-238.</li>
-				<li>Лецитин – його біологічні властивості. Методичний посібник. Дніпропетровськ: - 2013. - 64с.</li>
-				<li>Вплив соєвого та соняшникового лецитинів на показники функціонування печінки при інтоксикації тетрахлорметаном. Методичний посібник. Дніпропетровськ: - 2014. - с. 38.</li>
-				<li>Токсикологічна характеристика лецитину, збагаченого фосфатидилетаноламіном. Методичний посібник. Дніпропетровськ: - 2014. - с. 42.</li>
-				<li>Technology of dry powder sunflower lecithin for food, feed and pharmaceutics// Presentation at 103 AOCS Annual Meeting, Long Beach, USA. - 2012.</li>
-				<li>Biological properties of Deoil Sunflower lecithin 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
-				<li>Multiscale Molecular Simulation and Experimental investigation of Sunflower Phospholipids Liposomes Using for Scavenging Free Radicals. 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
-				<li>Dry powder lecithin and liposomal nanoemulsions from sunflower. ILPS Phospholipid Congress, Rotterdam. - 2011.</li>
-				<li>Патенти України: 
-					<ul>
-						<li>№ 86972, Бюл. № 1, 10.01.2014</li>
-						<li>№ 92313, Бюл. № 15, 11.08.2014.</li>
-					</ul>
-				</li>
-			</ol>
-		</article>
-
-		<article class='article'>
-
-			<header>
-				<h3 class='article-title'>Використання лецитину для годування тварин</h3>
-			</header>
-			<aside class='aside'>
-				<div class='premium'>
-					<img class='section-image' src="images/premium4.png" alt="images/premium4.png"/>
-				</div>
-			</aside>
-
-			<p>Лецитин (есенціальні фосфоліпіди) &#8211; екологічно чистий, натуральний продукт, виділений із фосфатидного концентрату соняшника. Як кормова добавка, підвищує енергетичний рівень раціону тварин, посилює анаболічні процеси в їх організмі та покращує імунобіологічну активність внаслідок використання тканинами організму складових лецитину (фосфатидилхоліну, ненасичених жирних кислот та ін.).</p>
-			<p>Фосфоліпіди &#8211; необхідні компоненти всіх без винятку клітин живого організму, вони виконують низку функцій, а саме:</p>
-			<ul>
-				<li> служать формою, в якій депонуються запаси метаболічної енергії (не мають аналогів за енергетичним потенціалом);</li>
-				<li> є структурним компонентом мембран, забезпечують їх еластичність. Запобігають утворенню токсичних вільних радикалів, тим самим посилюють антиоксидантний захист у тварин, зменшують негативний вплив стрес-факторів;</li>
-				<li> покращують транспортну здатність клітинних мембран, тобто сприяють засвоєнню поживних речовин корму, зростанню та розвитку тварин;</li>
-				<li> покращують кальцифікацію кісток та формування кістково-м'язової системи, процес кровотворення.</li>
-			</ul>
-
-			<p>Найбільш важливе значення для тварин мають ненасичені жирні кислоти, такі як лінолева, яка організмом не виробляється, тому має надходити з кормом. При її дефіциті зупиняється зростання, слабшає опір організму інфекціям та стресовим факторам.</p>
-
-			<p>Перебуваючи у складі фосфоліпідів біологічних мембран, лецитин забезпечує їх еластичність, приймає участь в обміні жирів між печінкою та жировою тканиною. За наявності лецитину забезпечується постійний відтік жирових речовин із печінки у загальне кров'яне русло, чим попереджається розвиток жирової інфільтрації печінки, а за її дистрофії &#8211; підвищується детоксикаційна функція.</p>
-
-			<p>Таким чином, лецитин використовують для приготування повноцінних, багатих на енергію та біологічно активними речовинами кормів з гепатопротекторною дією; для підвищення резистентності та загальної детоксикації організму тварин при стресових ситуаціях.</p>
-
-			<p>Проведені випробування дозволили визначити дози введення лецитину та склад комбікормів при годівлі: </p>
-			<ul>
-				<li> курчат бройлерів: 
-					<ul class='subList'>
-						<li>у стартовий період;</li>
-						<li>у фінішний період;</li>
-					</ul>
-				</li>
-				<li> поросних свиноматок;</li>
-				<li> свиней на відгодівлі;</li>
-				<li> коропів, канальних сомів та бестера;</li>
-				<li> телят;</li>
-				<li> стельних корів;</li>
-				<li> хутрових звірів (норок);</li>
-				<li> дорослих собак та кішок.</li>
-			</ul>
-		
-			<p>Докладно з результатами випробувань можна ознайомитись:</p>
-			<ol>
-				<li> Лецитин як фактор одержання продукції тваринництва. К: Освіта України,2010, с. 114.</li>
-				<li> Нові склади комбікормів для сільскогосподарських ,тварин, птиці та риби. Наукові праці ОНАХТ, випуск 36, т. 1, 2009р., с. 14-17.</li>
-				<li> Ефективність застосування лецитину в рибництві. Тваринництво України, № 3, 2010р., с. 24-27.</li>
-				<li> Використання лецитину як кормової добавки в раціонах молодняку свиней. Вісник інституту тваринництва центральних районів УААН, вип. 2, Дніпропетровськ, 2007р., с. 117-123.</li>
-				<li> Патенти України: 
-					<ul>
-						<li>№ 26705, Бюл. № 16, 10.10.2007г.</li>
-						<li>№ 32030, Бюл. № 8, 25.04.2008г.</li>
-						<li>№ 34328, Бюл. № 15, 11.08.2008г.</li>
-						<li>№ 35928, Бюл. № 19, 10.10.2008г.</li>
-						<li>№ 56982, Бюл. № 3, 10.02.2011г.</li>
-						<li>№ 56993, Бюл. № 3, 10.02.2011г.</li>
-						<li>№ 56994, Бюл. № 3, 10.02.2011г.</li>
-						<li>№ 71085. Бюл. № 13, 10.07.2012г.</li>
-					</ul>
-				</li>
-			</ol>
-		</article>
-
-	</section>
-
-	<section id='ecosolutions' class="section ecosolutions">
-		<header>
-			<h2 class='section-title'>
-				<b>Еко рішення</b>
-			</h2>
-		</header>
-		<article class='article'>
-			<h2 hidden='hidden'>Переваги</h2>
-			<p>
-				Переваги знежиреного соняшникового лецитину та продуктів його переробки виробництва компанії ТОВ &quot;НВП &quot;БІОЛЕР&quot;:</p>
-				<ul>
-					<li>не містить ГМО;</li> 
-					<li>не містить алергенів, тому на відміну від соєвого лецитину, не вимагає спеціального маркування відповідно до:
-						<ul>
-							<li>Food Allergen Labeling and consumer Protection Act of 2004 (Public Law 108-282);</li>
-							<li>EU Regulation 1169-2011.</li>
-						</ul>
-					</li>
-					<li>не містить фітоестрогенів.</li>
-				</ul>
-
-				<div id="myCarousel2" class="carousel slide" data-interval="false" data-ride="carousel2">
+			<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
 				
-					<div class="carousel-inner" role="listbox">
-						
-						<div class="item active">
-							<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
-						</div>
-
-						<div class="item">
-							<img src="images/page4_pic7.png" alt="сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%" class='center-block item-image'/>
-						</div>
-
-					</div>
-						
-					<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-		</article>
-	</section>
-
-	<section id='authorizations' class="section authorizations">
-		<header>
-			<h2 class='section-title'>
-				<b>Дозвільна документація</b>
-			</h2>
-		</header>
-		<article class='article'>
-			<div id="myCarousel3" class="carousel slide" data-interval="false" data-ride="carousel3">
-			
 				<div class="carousel-inner" role="listbox">
 					
 					<div class="item active">
-						<img src="images/Kosher_certificate_2023.jpg" alt="Kosher_certificate_2023" class='center-block item-image'/>
-						<div>
-							<h3 class="item-title">Kosher certificate</h3>
+						<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">Дієтичний лецитин</h3>
 						</div>
 					</div>
 
 					<div class="item">
-						<img src="images/ISO_22000_2018_2021.jpg" alt="ISO_22000_2018_2021" class='center-block item-image'/>
-						<div>
-							<h3 class="item-title">Certificate ISO 22000:2018 </h3>
+						<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">50% розчин фосфатидилхоліну в етиловому спирті</h3>
 						</div>
 					</div>
 
 					<div class="item">
-						<img src="images/tech_umovy1str.jpg" alt="tech_umovy1str" class='center-block item-image'/>
-						<div>
-							<h3 class="item-title">Лецитин</h3>
+						<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">50% розчин фосфатидилхоліну в ізопропіловому спирті</h3>
 						</div>
 					</div>
 
 					<div class="item">
-						<img src="images/tech_umovy1str_fosfat.jpg" alt="tech_umovy1str_fosfat" class='center-block item-image'/>
-						<div>
-							<h3 class="item-title">
-								Фосфатидилхолін(L-<span class='alpha'>&#945;</span>-лецитин) з фосфатидного концентрату 50% розчин
-							</h3>
-						</div>
-					</div>
-
-					<div class="item">
-						<img src="images/tech_umovy1str_oliya.jpg" alt="tech_umovy1str_oliya" class='center-block item-image'/>
-						<div>
+						<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
+						<div class='item-caption'>
 							<h3 class="item-title">Олія концентрату фосфатидів</h3>
 						</div>
 					</div>
 
-					
+					<div class="item">
+						<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">Кормовий лецитин</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">Харчовий лецитин</h3>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/page4_pic7.png" alt="сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%" class='center-block item-image'/>
+						<div class='item-caption'>
+							<h3 class="item-title">Сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%</h3>
+						</div>
+					</div>
+
 				</div>
 
 				<div class='item-check'>
 					<span class='item-note'>Переглянути та завантажити сертифікати Ви можете за посиланнями нижче</span>
-					<span class="item-watch">
-						<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank">[перегляд]</a> 
-						<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank" download="images/Kosher_certificate_2023.jpg">[завантажити]</a>
+					<span class="item-info">
+						<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" target="_blank">[ перегляд ]</a> 
+						<a class="item-title" href="images/ck_dieticheskay_dobavka_lecitin.pdf" download="images/ck_dieticheskay_dobavka_lecitin.pdf">[ завантажити ]</a>
 					</span>
 				</div>
 
-				<a class="left left3 carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+				<a class="left left1 carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a class="right right3 carousel-control" href="#myCarousel3" role="button" data-slide="next">
+				<a class="right right1 carousel-control" href="#myCarousel" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
-
 			</div>
+		</section>
+
+		<!-- <br/><br/> -->
+		
+		<section id='effectiveness' class="section effectiveness">
+			<header>
+				<h2 class='section-title'>
+					<b>Ефективність застосування</b>
+				</h2>
+			</header>
+
+			<article class='article'>
+				<header>
+					<h3 class='article-title'>Застосування лецитину в харчовій промисловості</h3>
+				</header>
+				<aside class='aside'>
+					<div class='premium'>
+						<img class='section-image' src="images/premium5.png" alt='images/premium5.png'/>
+					</div>
+				</aside>
+				<p>Лецитин відноситься до природних харчових добавок (Е 322), а за своїми технологічними функціями &#8211; до емульгаторів та антиоксидантів.</p>
+				<p>Використання лецитину в харчовій промисловості пов'язане з його здатністю утворювати та стабілізувати емульсії масло/вода (різні соуси та майонези) та вода/масло (маргарини). За рахунок взаємодії лецитину та структурних компонентів тіста (хлібобулочні та кондитерські вироби) утворюються комплексні сполуки, які відіграють важливу роль у формуванні структури напівфабрикатів та якості готових виробів, уповільнюють процес зміни високополімерних речовин м'якушки хліба при зберіганні, покращують реологічні властивості тіста, його пружність та еластичність. Добавка лецитину полегшує підйом жирного тіста, дає можливість застосовувати збіднене клейковиною борошно, а також отримувати збільшений об'ємний вихід продукту.</p>
+				<p>Здатність лецитину стабілізувати суспензії використовується при приготуванні харчових продуктів із сухим молоком, какао, екстрактами кави. Завдяки лецитиновому шару поверхня сухих частинок гідрофілізується, що призводить як до прискорення розчинності, так і до однорідності та стабільності суспензій.</p>
+				<p>Добавка лецитину стала обов'язковою при виготовленні шоколаду, так як знижує в'язкість суміші обсмажених какао бобів, цукру та олії какао, скорочує час змішування та економить масло какао (добавка 0,5% лецитину веде до такого ж зниження в'язкості, як 5% олія какао).</p>
+				<p>З отриманими результатами можна ознайомитись:</p>
+				<ol>
+					<li>Аспекти застосування соняшникового лецитину у харчовій промисловості. Наукові праці ОНАХТ, вип. 36, т. 2, 2009р., с. 177-179.</li>
+					<li>Використання сухого соняшникого лецитину при виробництві хлібобулочних виробів та маргаринів. Тематичний збірник наукових праць Донецького національного Університету економіки і торгівлі. - 2012. - Вип. 28. - с. 169-174.</li>
+				</ol>
+
+			</article>
 			
-		</article>
-	</section>
+			<article class='article'>
+				<header>
+					<h3 class='article-title'>Використання лецитину та його компонентів у фармакології.</h3>
+				</header>
+				<p>Дієтична добавка &#171;Лецитин&#187; використовується в раціоні харчування населення як додаткове джерело фосфоліпідів при наступних захворюваннях:</p>
 
-	<section id='about' class="section about">
-		<header>
-			<h2 class='section-title'>
-				<b>Про нас</b>
-			</h2>
-		</header>
-		<!-- <aside class='aside'>
-			<div class='premium'>
-				<img class='section-image section-image__about' src="images/2.jpg" alt='images/2.jpg'/>
-			</div>
-		</aside> -->
-		<article class='article'>
-			<h2 hidden='hidden'>ТОВ &#171;НВП &#171;БІОЛЕР&#187;</h2>
-
-			<p>ТОВ &#171;НВП &#171;БІОЛЕР&#187; втілює у собі об'єднання науки та бізнесу. Ми маємо 35-річний досвід розробки та впровадження інноваційних технологій виділення соняшникових фосфоліпідів. Технології та способи застосування одержуваних продуктів захищені 18 патентами України. Компанія зареєстрована у 2013 році. Засновники &#8211; приватні особи.</p>
-			<p>Підприємство розташовано поблизу міста Дніпра. Площа &#8211; 1 га.</p>
-
-			<p>Випробування соняшникового знежиреного лецитину, сухого фосфатидилхоліну та його розчинів, проведені у Німеччині, Франції, Південній Кореї, Ізраїлі, Іспанії та США, показали відповідність наших продуктів найкращим світовим аналогам.</p>
+				<ol class='farmUse'>
+					<li class='farmUse-examp'> порушення мозкового кровообігу, виснаження центральної та периферичної нервової системи, вегето-судинної дистонії, головних болях, розладах сну, підвищеної збудливості та дратівливості, погіршення пам'яті та концентрації уваги, хронічної втоми, зниженої працездатності;</li>
+					<li class='farmUse-examp'> підвищений рівень холестерину в крові, атеросклероз із ураженням судин різної локалізації (мозку, серця, периферичних артерій та ін.), комплексне лікування розладів серцевого ритму, ішемічної хвороби серця, гіпертонічної хвороби;</li>
+					<li class='farmUse-examp'> захворювання підшлункової залози, цукровий діабет І-ІІ типу;</li>
+					<li class='farmUse-examp'> захворювання печінки, жовчовивідних шляхів, гепатопротекторна дія при впливі токсичних речовин, алкоголю, хронічний гепатит, цироз;</li>
+					<li class='farmUse-examp'> порушення роботи нирок, профілактика каменеутворення;</li>
+					<li class='farmUse-examp'> профілактика фіброзу передміхурової залози, зниження рухливості сперматозоїдів;</li>
+					<li class='farmUse-examp'> комплексна терапія алергії, захворювань шкіри, псоріазу, екземи, нейродерміту та ін.</li>
+				</ol>
 			
-			<p>Виробництво збудовано з отриманням усієї нормативно-технічної дозвільної документації, передбаченої законодавством України.</p>
-		</article>
-	</section>
+				<p>В даний час наукові дослідження та технологічні розробки в галузі виділення індивідуальних природних ліпідів (зокрема, фосфатидилхоліну) та створення штучних ліпідних мембран &#8211; ліпосом проводяться спільно з науково-дослідним інститутом медико-біологічних проблем ДДМА м. Дніпро та Інститутом біотехнології та геноміки НАН України м. Київ.</p>
 
-	<footer class='footer'>
-		<div class='contacts'>
-			<div class='address'>
-				<p>Найменування: 
-					<b>ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187;</b>
-				</p>
-				<p>Адреса: 
-					<b>вул. Степова 1а, с. Новоолександрівка, Дніпропетровська область, 52070 Україна</b>
-				</p>
-				<p>Поштова адреса: 
-					<b>а/с 2263, м. Дніпро, 49038</b>
-				</p>
+				<p>Із отриманими результатами (станом на 01.01.2015р.) можна ознайомитись:</p>
+				<ol>
+					<li>Сучасні уявлення про біологічні властивості лецитину. Медичні перспективи, т. XV, 2, 2010г., с. 123-135.</li>
+					<li>Біологічні властивості лецитину з соняшнику. Наукові праці ОНАХТ, вип. 42, т. 1, 2012р., с. 234-238.</li>
+					<li>Лецитин – його біологічні властивості. Методичний посібник. Дніпропетровськ: - 2013. - 64с.</li>
+					<li>Вплив соєвого та соняшникового лецитинів на показники функціонування печінки при інтоксикації тетрахлорметаном. Методичний посібник. Дніпропетровськ: - 2014. - с. 38.</li>
+					<li>Токсикологічна характеристика лецитину, збагаченого фосфатидилетаноламіном. Методичний посібник. Дніпропетровськ: - 2014. - с. 42.</li>
+					<li>Technology of dry powder sunflower lecithin for food, feed and pharmaceutics// Presentation at 103 AOCS Annual Meeting, Long Beach, USA. - 2012.</li>
+					<li>Biological properties of Deoil Sunflower lecithin 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+					<li>Multiscale Molecular Simulation and Experimental investigation of Sunflower Phospholipids Liposomes Using for Scavenging Free Radicals. 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+					<li>Dry powder lecithin and liposomal nanoemulsions from sunflower. ILPS Phospholipid Congress, Rotterdam. - 2011.</li>
+					<li>Патенти України: 
+						<ul>
+							<li>№ 86972, Бюл. № 1, 10.01.2014</li>
+							<li>№ 92313, Бюл. № 15, 11.08.2014.</li>
+						</ul>
+					</li>
+				</ol>
+			</article>
+
+			<article class='article'>
+
+				<header>
+					<h3 class='article-title'>Використання лецитину для годування тварин</h3>
+				</header>
+				<aside class='aside'>
+					<div class='premium'>
+						<img class='section-image' src="images/premium4.png" alt="images/premium4.png"/>
+					</div>
+				</aside>
+
+				<p>Лецитин (есенціальні фосфоліпіди) &#8211; екологічно чистий, натуральний продукт, виділений із фосфатидного концентрату соняшника. Як кормова добавка, підвищує енергетичний рівень раціону тварин, посилює анаболічні процеси в їх організмі та покращує імунобіологічну активність внаслідок використання тканинами організму складових лецитину (фосфатидилхоліну, ненасичених жирних кислот та ін.).</p>
+				<p>Фосфоліпіди &#8211; необхідні компоненти всіх без винятку клітин живого організму, вони виконують низку функцій, а саме:</p>
+				<ul>
+					<li> служать формою, в якій депонуються запаси метаболічної енергії (не мають аналогів за енергетичним потенціалом);</li>
+					<li> є структурним компонентом мембран, забезпечують їх еластичність. Запобігають утворенню токсичних вільних радикалів, тим самим посилюють антиоксидантний захист у тварин, зменшують негативний вплив стрес-факторів;</li>
+					<li> покращують транспортну здатність клітинних мембран, тобто сприяють засвоєнню поживних речовин корму, зростанню та розвитку тварин;</li>
+					<li> покращують кальцифікацію кісток та формування кістково-м'язової системи, процес кровотворення.</li>
+				</ul>
+
+				<p>Найбільш важливе значення для тварин мають ненасичені жирні кислоти, такі як лінолева, яка організмом не виробляється, тому має надходити з кормом. При її дефіциті зупиняється зростання, слабшає опір організму інфекціям та стресовим факторам.</p>
+
+				<p>Перебуваючи у складі фосфоліпідів біологічних мембран, лецитин забезпечує їх еластичність, приймає участь в обміні жирів між печінкою та жировою тканиною. За наявності лецитину забезпечується постійний відтік жирових речовин із печінки у загальне кров'яне русло, чим попереджається розвиток жирової інфільтрації печінки, а за її дистрофії &#8211; підвищується детоксикаційна функція.</p>
+
+				<p>Таким чином, лецитин використовують для приготування повноцінних, багатих на енергію та біологічно активними речовинами кормів з гепатопротекторною дією; для підвищення резистентності та загальної детоксикації організму тварин при стресових ситуаціях.</p>
+
+				<p>Проведені випробування дозволили визначити дози введення лецитину та склад комбікормів при годівлі: </p>
+				<ul>
+					<li> курчат бройлерів: 
+						<ul class='subList'>
+							<li>у стартовий період;</li>
+							<li>у фінішний період;</li>
+						</ul>
+					</li>
+					<li> поросних свиноматок;</li>
+					<li> свиней на відгодівлі;</li>
+					<li> коропів, канальних сомів та бестера;</li>
+					<li> телят;</li>
+					<li> стельних корів;</li>
+					<li> хутрових звірів (норок);</li>
+					<li> дорослих собак та кішок.</li>
+				</ul>
+			
+				<p>Докладно з результатами випробувань можна ознайомитись:</p>
+				<ol>
+					<li> Лецитин як фактор одержання продукції тваринництва. К: Освіта України,2010, с. 114.</li>
+					<li> Нові склади комбікормів для сільскогосподарських ,тварин, птиці та риби. Наукові праці ОНАХТ, випуск 36, т. 1, 2009р., с. 14-17.</li>
+					<li> Ефективність застосування лецитину в рибництві. Тваринництво України, № 3, 2010р., с. 24-27.</li>
+					<li> Використання лецитину як кормової добавки в раціонах молодняку свиней. Вісник інституту тваринництва центральних районів УААН, вип. 2, Дніпропетровськ, 2007р., с. 117-123.</li>
+					<li> Патенти України: 
+						<ul>
+							<li>№ 26705, Бюл. № 16, 10.10.2007г.</li>
+							<li>№ 32030, Бюл. № 8, 25.04.2008г.</li>
+							<li>№ 34328, Бюл. № 15, 11.08.2008г.</li>
+							<li>№ 35928, Бюл. № 19, 10.10.2008г.</li>
+							<li>№ 56982, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 56993, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 56994, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 71085. Бюл. № 13, 10.07.2012г.</li>
+						</ul>
+					</li>
+				</ol>
+			</article>
+
+		</section>
+
+		<section id='ecosolutions' class="section ecosolutions">
+			<header>
+				<h2 class='section-title'>
+					<b>Еко рішення</b>
+				</h2>
+			</header>
+			<article class='article'>
+				<h2 hidden='hidden'>Переваги</h2>
+				<p>
+					Переваги знежиреного соняшникового лецитину та продуктів його переробки виробництва компанії ТОВ &quot;НВП &quot;БІОЛЕР&quot;:</p>
+					<ul>
+						<li>не містить ГМО;</li> 
+						<li>не містить алергенів, тому на відміну від соєвого лецитину, не вимагає спеціального маркування відповідно до:
+							<ul>
+								<li>Food Allergen Labeling and consumer Protection Act of 2004 (Public Law 108-282);</li>
+								<li>EU Regulation 1169-2011.</li>
+							</ul>
+						</li>
+						<li>не містить фітоестрогенів.</li>
+					</ul>
+
+					<div id="myCarousel2" class="carousel slide" data-interval="false" data-ride="carousel2">
+					
+						<div class="carousel-inner" role="listbox">
+							
+							<div class="item active">
+								<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
+							</div>
+
+							<div class="item">
+								<img src="images/page4_pic7.png" alt="сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%" class='center-block item-image'/>
+							</div>
+
+						</div>
+							
+						<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+			</article>
+		</section>
+
+		<section id='authorizations' class="section authorizations">
+			<header>
+				<h2 class='section-title'>
+					<b>Дозвільна документація</b>
+				</h2>
+			</header>
+			<article class='article'>
+				<div id="myCarousel3" class="carousel slide" data-interval="false" data-ride="carousel3">
+				
+					<div class="carousel-inner" role="listbox">
+						
+						<div class="item active">
+							<img src="images/Kosher_certificate_2023.jpg" alt="Kosher_certificate_2023" class='center-block item-image'/>
+							<div>
+								<h3 class="item-title">Kosher certificate</h3>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="images/ISO_22000_2018_2021.jpg" alt="ISO_22000_2018_2021" class='center-block item-image'/>
+							<div>
+								<h3 class="item-title">Certificate ISO 22000:2018 </h3>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="images/tech_umovy1str.jpg" alt="tech_umovy1str" class='center-block item-image'/>
+							<div>
+								<h3 class="item-title">Лецитин</h3>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="images/tech_umovy1str_fosfat.jpg" alt="tech_umovy1str_fosfat" class='center-block item-image'/>
+							<div>
+								<h3 class="item-title">
+									Фосфатидилхолін(L-<span class='alpha'>&#945;</span>-лецитин) з фосфатидного концентрату 50% розчин
+								</h3>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="images/tech_umovy1str_oliya.jpg" alt="tech_umovy1str_oliya" class='center-block item-image'/>
+							<div>
+								<h3 class="item-title">Олія концентрату фосфатидів</h3>
+							</div>
+						</div>
+
+						
+					</div>
+
+					<div class='item-check'>
+						<span class='item-note'>Переглянути та завантажити сертифікати Ви можете за посиланнями нижче</span>
+						<span class="item-watch">
+							<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank">[перегляд]</a> 
+							<a class="item-title" href="images/Kosher_certificate_2023.jpg" target="_blank" download="images/Kosher_certificate_2023.jpg">[завантажити]</a>
+						</span>
+					</div>
+
+					<a class="left left3 carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right right3 carousel-control" href="#myCarousel3" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+
+				</div>
+				
+			</article>
+		</section>
+
+		<section id='about' class="section about">
+			<header>
+				<h2 class='section-title'>
+					<b>Про нас</b>
+				</h2>
+			</header>
+			<!-- <aside class='aside'>
+				<div class='premium'>
+					<img class='section-image section-image__about' src="images/2.jpg" alt='images/2.jpg'/>
+				</div>
+			</aside> -->
+			<article class='article'>
+				<h2 hidden='hidden'>ТОВ &#171;НВП &#171;БІОЛЕР&#187;</h2>
+
+				<p>ТОВ &#171;НВП &#171;БІОЛЕР&#187; втілює у собі об'єднання науки та бізнесу. Ми маємо 35-річний досвід розробки та впровадження інноваційних технологій виділення соняшникових фосфоліпідів. Технології та способи застосування одержуваних продуктів захищені 18 патентами України. Компанія зареєстрована у 2013 році. Засновники &#8211; приватні особи.</p>
+				<p>Підприємство розташовано поблизу міста Дніпра. Площа &#8211; 1 га.</p>
+
+				<p>Випробування соняшникового знежиреного лецитину, сухого фосфатидилхоліну та його розчинів, проведені у Німеччині, Франції, Південній Кореї, Ізраїлі, Іспанії та США, показали відповідність наших продуктів найкращим світовим аналогам.</p>
+				
+				<p>Виробництво збудовано з отриманням усієї нормативно-технічної дозвільної документації, передбаченої законодавством України.</p>
+			</article>
+		</section>
+
+		<footer class='footer'>
+			<div class='contacts'>
+				<div class='address'>
+					<p>Найменування: 
+						<b>ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187;</b>
+					</p>
+					<p>Адреса: 
+						<b>вул. Степова 1а, с. Новоолександрівка, Дніпропетровська область, 52070 Україна</b>
+					</p>
+					<p>Поштова адреса: 
+						<b>а/с 2263, м. Дніпро, 49038</b>
+					</p>
+				</div>
+				<div class='info'>
+					<p>
+						Телефон/ФАКС:
+						<a href="tel:+380567676163">
+							<b>+ 38 056 767 61 63</b>
+						</a>
+					</p>
+					<p>
+						Загальна інформація:
+						<a href="mailto:dacs@optima.com.ua">
+							<b>dacs@optima.com.ua</b>
+						</a>
+					</p>
+					<p>
+						Відділ продажів:
+						<a href="mailto:tov@biolerlecithin.com">
+							<b>tov@biolerlecithin.com</b>
+						</a>
+					</p>
+				</div>
 			</div>
-			<div class='info'>
-				<p>
-					Телефон/ФАКС:
-					<a href="tel:+380567676163">
-						<b>+ 38 056 767 61 63</b>
-					</a>
-				</p>
-				<p>
-					Загальна інформація:
-					<a href="mailto:dacs@optima.com.ua">
-						<b>dacs@optima.com.ua</b>
-					</a>
-				</p>
-				<p>
-					Відділ продажів:
-					<a href="mailto:tov@biolerlecithin.com">
-						<b>tov@biolerlecithin.com</b>
-					</a>
-				</p>
+			<div class='copyright'>
+				<span class='LTD'>&#169; 2022 ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187; </span>
+				<p>Усі права захищені</p>
 			</div>
-		</div>
-		<div class='copyright'>
-			<span class='LTD'>&#169; 2022 ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187; </span>
-			<p>Усі права захищені</p>
-		</div>
-	</footer>
-	<button class='btn-scroll' onclick='scrollToTop()'>&#8593;</button>
-</body>
+		</footer>
+		<button class='btn-scroll' onclick='scrollToTop()'>&#8593;</button>
+	</body>
+</content>
