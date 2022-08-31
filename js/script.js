@@ -79,12 +79,14 @@ const getXML = xml => {
 
 /*=========== Scroll-to-Top button ===========*/
 
-var btnScroll = $(`.btn-scroll`);
 const topSize = 260;
 
 window.onscroll = () => scrollFunction();
 
 const scrollFunction = () => {
+
+	let btnScroll = $(`.btn-scroll`);
+	
 	if (document.body.scrollTop > topSize || document.documentElement.scrollTop > topSize) {
 		btnScroll.css(`display`, `block`);
 	} else {
