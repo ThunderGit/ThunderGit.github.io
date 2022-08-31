@@ -79,7 +79,7 @@ const getXML = xml => {
 
 /*=========== Scroll-to-Top button ===========*/
 
-let btnScroll = $(`.btn-scroll`);
+var btnScroll = $(`.btn-scroll`);
 const topSize = 260;
 
 window.onscroll = () => scrollFunction();
