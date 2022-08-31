@@ -85,12 +85,10 @@ window.onscroll = () => scrollFunction();
 
 const scrollFunction = () => {
 
-	let btnScroll = $(`.btn-scroll`);
-	
 	if (document.body.scrollTop > topSize || document.documentElement.scrollTop > topSize) {
-		btnScroll.css(`display`, `block`);
+		$(`.btn-scroll`).css(`display`, `block`);
 	} else {
-		btnScroll.css(`display`, `none`);
+		$(`.btn-scroll`).css(`display`, `none`);
 	}
 }
 
