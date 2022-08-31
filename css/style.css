@@ -157,6 +157,7 @@ html,body{
 	bottom: 0px;
 	left: 0px;
 	opacity: 0.25;
+	background-attachment: fixed;
 }
 
 .section:nth-child(odd){
