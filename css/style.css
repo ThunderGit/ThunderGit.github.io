@@ -407,6 +407,10 @@ html,body{
 		font-size: 4vw;
 	}
 
+	.header::before{
+		background-position: right;
+	}
+
 	ul{
 		padding: 0 6vw;
 	}
