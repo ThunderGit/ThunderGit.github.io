@@ -1,6 +1,6 @@
 html,body{
 	margin: 0 auto;
-	font-family: Palatino, "Palatino Linotype", Garamond, serif !important;
+	font-family: Microsoft Sans Serif, Trebuchet MS, Franklin Gothic, Verdana, sans-serif !important;
 }
 
 .header{
@@ -24,8 +24,8 @@ html,body{
 
 .logo-gif{
 	padding: 1vw 0;
-	width: 20vw;
-	height: 14vw;
+	width: 11vw;
+	height: 9vw;
 	cursor: pointer;
 	outline: none;
 }
@@ -51,6 +51,7 @@ html,body{
 	overflow: hidden;
 	border-radius: 0 !important;
 	background-color: rgba(230,246,46);
+	background-image: linear-gradient(to right, rgba(214,224,73) , rgba(230,246,46));
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -159,11 +160,11 @@ html,body{
 }
 
 .section:nth-child(odd){
-	/*background-color: rgba(21,173,1);*/
+	background-color: rgba(181,236,255);
 }
 
 .section:nth-child(even){
-	background-color: rgba(181,236,255);
+	/*background-color: rgba(181,236,255);*/
 }
 
 .section-title{
@@ -183,7 +184,7 @@ html,body{
 }
 
 .section-image{
-	width: 20vw;
+	width: 15vw;
 	height: 55vw;
 }
 
@@ -272,19 +273,19 @@ html,body{
 }
 
 .glyphicon{
-	color: rgba(0,154,0,0.95);
+	color: rgba(0,75,0,0.95);
 }
 
 .glyphicon:hover{
-	color: rgba(0,154,0,1.0);
+	color: rgba(0,75,0,1.0);
 }
 
 .glyphicon3{
-	color: rgba(0,154,254,0.95);
+	color: rgba(2,36,163,0.95);
 }
 
 .glyphicon3:hover{
-	color: rgba(0,154,254,1.0);
+	color: rgba(2,36,163,1.0);
 }
 
 .section-title,
@@ -330,11 +331,11 @@ html,body{
 
 .footer{
 	position: relative;
+	height: 45vw;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-
-	background-color: rgba(214,224,73);
-	color: rgba(2,36,163);
+	background-size: cover;
+	background-color: rgba(181,236,255);
+	color: rgba(0,0,163);
 	padding: 1vw 0;
 	font-size: 1.25vw;
 }
@@ -369,9 +370,11 @@ html,body{
 
 .header::before{
 	background-image: url("../images/header-sun.jpg");
+
 }
 .products::before{
 	background-image: url("../images/products.jpg");
+	opacity: 0.2;
 }
 .effectiveness::before{
 	background-image: url("../images/effectiveness7.jpg");
@@ -386,9 +389,9 @@ html,body{
 	background-image: url("../images/2.jpg");
 }
 .footer::before{
-	background-image: url("../images/footer-sun2.jpg");
+	background-image: url("../images/footer-sun11.jpg");
 	opacity: 0.5;
-	background-position: top;
+	background-position: center;
 }
 /*==========================================*/
 
@@ -475,6 +478,10 @@ html,body{
 
 	.aside{
 		float: none;
+	}
+
+	.footer{
+		height: 310vw;
 	}
 
 	.contacts{
