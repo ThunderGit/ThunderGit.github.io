@@ -7,6 +7,7 @@ let prevHref = (item, index, array) => {
 	
 	return index;
 };
+
 let nextHref  = (item, index, array) => {
 	index = (index !== array.length-1) ? (index + 1) : 0;
 	item.attr(`href`, array[index]);
@@ -24,6 +25,7 @@ const prods = [
 	`images/ck_lecitin.pdf`,
 	``
 ];
+
 const certs = [
 	`images/Kosher_certificate_2023.jpg`,
 	`images/ISO_22000_2018_2021.jpg`,
@@ -79,6 +81,7 @@ const getXML = xml => {
 
 /*=========== Scroll-to-Top button ===========*/
 
+const btnScroll = $(`.btn-scroll`);
 const topSize = 260;
 
 window.onscroll = () => scrollFunction();
@@ -86,13 +89,16 @@ window.onscroll = () => scrollFunction();
 const scrollFunction = () => {
 
 	if (document.body.scrollTop > topSize || document.documentElement.scrollTop > topSize) {
-		$(`.btn-scroll`).css(`display`, `block`);
+
+		btnScroll.css(`display`, `block`);
+
 	} else {
-		$(`.btn-scroll`).css(`display`, `none`);
+
+		btnScroll.css(`display`, `none`);
 	}
 }
 
 const scrollToTop = () => {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
