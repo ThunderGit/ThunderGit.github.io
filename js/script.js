@@ -102,3 +102,7 @@ const scrollToTop = () => {
 	document.body.scrollTop = 0; // For Safari
 	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/*=========== Picture dissapear ===========*/
+
+$(`.div-hello`).delay(2000).fadeOut(500);
