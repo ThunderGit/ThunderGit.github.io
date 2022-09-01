@@ -3,10 +3,25 @@ html,body{
 	font-family: Microsoft Sans Serif, Trebuchet MS, Franklin Gothic, Verdana, sans-serif !important;
 }
 
+
+.div-hello {
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url("../images/header-sun2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
 .header{
 	position: relative;
 	margin-bottom: -20px;
-	padding-top: 44vw;
+	/*padding-top: 40vw;*/
 	background-color: rgba(181,236,255);
 	color: rgba(2,36,163);
 }
@@ -111,7 +126,7 @@ html,body{
 .section::before,
 .footer::before{
 	content: "";
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0px;
@@ -324,14 +339,14 @@ html,body{
 	text-align: center;
 	font-weight: 550;
 }
-
 /**sections**/
 
 .header::before{
-	background-image: url("../images/header-sun2.jpg");
+	background-image: url("../images/section-sun.jpg");
 }
 .section::before{
 	background-image: url("../images/section-sun.jpg");
+	background-position: right;
 }
 .footer::before{
 	background-image: url("../images/footer-sun.jpg");
@@ -340,6 +355,12 @@ html,body{
 
 /****** Responsive styles ******/
 @media only screen and (max-width: 990px){
+
+	.header::before,
+	.section::before,
+	.footer::before{
+		background-position: right;
+	}
 
 	.article p, .article li,
 	.item-title, .item-info,
@@ -394,7 +415,12 @@ html,body{
 	}
 
 	.article p{
-		padding-left: 4vw;
+		padding-left: 3vw;
+		padding-right: 25vw;
+	}
+
+	.article li{
+		padding-right: 12vw;
 	}
 
 	.item-image{
