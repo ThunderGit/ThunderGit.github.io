@@ -4,41 +4,11 @@ html,body{
 }
 
 .header{
-	background-repeat: no-repeat;
-	background-size: cover;
 	position: relative;
-	background-color: rgba(181,236,255);
-	/*color: rgba(251,219,1);*/
-	/*color: rgba(0,224,255);*/
-	color: rgba(2,36,163);
 	margin-bottom: -20px;
-}
-
-.logo{
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.logo-gif{
-	padding: 1vw 0;
-	width: 11vw;
-	height: 9vw;
-	cursor: pointer;
-	outline: none;
-}
-
-.header2{
-	padding: 2vw 4vw;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.header2 h2{
-	font-weight: bold;
+	padding-top: 44vw;
+	background-color: rgba(181,236,255);
+	color: rgba(2,36,163);
 }
 
 .btn-default{
@@ -80,7 +50,6 @@ html,body{
 }
 
 .navbar a {
-	/*color: rgba(21,173,1);*/
 	color: rgba(2,36,163);
 	text-align: center;
 	text-decoration: none;
@@ -133,15 +102,8 @@ html,body{
 	cursor: pointer;
 }
 
-/*.btn-scroll:hover{
-	background-color: rgba(0,150,255);
-}*/
-
 .section{ 
 	position: relative;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	/*color: rgba(0,194,255);*/
 	padding: 2vw;
 }
 
@@ -149,22 +111,18 @@ html,body{
 .section::before,
 .footer::before{
 	content: "";
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	position: absolute;
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	opacity: 0.25;
 	background-attachment: fixed;
 }
 
 .section:nth-child(odd){
 	background-color: rgba(181,236,255);
-}
-
-.section:nth-child(even){
-	/*background-color: rgba(181,236,255);*/
 }
 
 .section-title{
@@ -190,18 +148,19 @@ html,body{
 
 .article{
 	position: relative;
-	padding: 15px 0;
+	padding: 3vw 0;
 	font-weight: 550;
 }
 
 .article p{
-	text-indent: 50px;
-	padding: 10px 0;
+	text-indent: 3vw;
+	padding: 2vw 20vw 2vw 0;
 	font-size: 1.4vw;
 }
 
 .article li{
 	font-size: 1.4vw;
+	padding-right: 20vw;
 }
 
 .section:nth-child(odd) .article:nth-child(odd){
@@ -231,7 +190,7 @@ html,body{
 	text-align: center;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding:  0 0.5vw;
+	padding: 0 0.5vw;
 }
 
 .section:nth-child(even) .item-title{	
@@ -335,7 +294,7 @@ html,body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: rgba(181,236,255);
-	color: rgba(0,0,163);
+	color: rgba(0,0,120);
 	padding: 2vw 0;
 	font-size: 1.25vw;
 }
@@ -350,7 +309,7 @@ html,body{
 }
 
 .info a{
-	color: rgba(2,36,163);
+	color: rgba(0,0,120);
 	text-decoration: none;
 }
 
@@ -370,28 +329,12 @@ html,body{
 
 .header::before{
 	background-image: url("../images/header-sun2.jpg");
-	opacity: 1.0;
 }
-.products::before{
-	background-image: url("../images/products.jpg");
-	opacity: 0.2;
-}
-.effectiveness::before{
-	background-image: url("../images/effectiveness7.jpg");
-}
-.ecosolutions::before{
-	background-image: url("../images/eco.jpg");
-}
-.authorizations::before{
-	background-image: url("../images/authorizations.jpg");
-}
-.about::before{
-	background-image: url("../images/2.jpg");
+.section::before{
+	background-image: url("../images/section-sun.jpg");
 }
 .footer::before{
-	background-image: url("../images/footer-sun11.jpg");
-	opacity: 0.7;
-	background-position: center;
+	background-image: url("../images/footer-sun.jpg");
 }
 /*==========================================*/
 
@@ -405,10 +348,6 @@ html,body{
 	.address p, .copyright
 	{
 		font-size: 4vw;
-	}
-
-	.header::before{
-		background-position: right;
 	}
 
 	ul{
@@ -434,7 +373,6 @@ html,body{
 		font-size: 3.5vw;
 	}
 
-	.header2 h2,
 	.article-title,
 	.section-title{
 		font-size: 4vw;
@@ -456,13 +394,7 @@ html,body{
 	}
 
 	.article p{
-		padding: 1vw 4vw;
-		text-indent: 4vw;
-	}
-
-	.logo-gif{
-		width: 36vw;
-		height: 24vw;
+		padding-left: 4vw;
 	}
 
 	.item-image{
@@ -505,17 +437,9 @@ html,body{
 
 @media only screen and (min-width: 1980px){
 
-	.glyphicon{
-		font-size: 2.5vw !important;
-	}
-
 	p,li
 	{
 		font-size: 2vw;
-	}
-
-	.navbar li{
-		/*padding: 2vw 0.4vw;*/
 	}
 
 	.item-title,
@@ -528,11 +452,14 @@ html,body{
 		font-size: 1.25vw;
 	}
 
+	.glyphicon{
+		font-size: 2.5vw !important;
+	}
+
 	ol,ul{
 		padding-left: 4vw;
 	}
 
-	.header2 h2,
 	.article-title,
 	.section-title{
 		font-size: 2vw;
@@ -548,16 +475,6 @@ html,body{
 	.section-title,
 	.article-title{
 		padding: 4vw 0 2vw 0;
-	}
-
-	.article p{
-		padding: 1vw 0;
-	}
-
-	.logo-gif{
-		padding: 1vw 8vw 1vw 0;
-		width: 175%;
-		height: 175%;
 	}
 
 	.item-image{
