@@ -3,7 +3,6 @@ html,body{
 	font-family: Microsoft Sans Serif, Trebuchet MS, Franklin Gothic, Verdana, sans-serif !important;
 }
 
-
 .div-hello {
 	position: fixed;
 	display: block;
@@ -339,6 +338,7 @@ html,body{
 	text-align: center;
 	font-weight: 550;
 }
+
 /**sections**/
 
 .header::before{
@@ -350,6 +350,7 @@ html,body{
 }
 .footer::before{
 	background-image: url("../images/footer-sun.jpg");
+	background-position: center;
 }
 /*==========================================*/
 
