@@ -2,13 +2,13 @@
 	<title class='title title-EN'>Deoiled sunflower lecithin producer</title>
 	<body class='body body-EN'>
 		<header class='header'>
-			<div class='logo'>
+			<!-- <div class='logo'>
 				<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
 				<div class='header2'>
 					<h2>FOOD, FEED, pharmaceutical PHOSPHOLIPIDS</h2>
 					<h2>SUNFLOWER PHOSPHOLIPIDS TECHNOLOGY</h2>
 				</div>
-			</div>
+			</div> -->
 			<!-- <nav>
 				<ul id='navbar' class='navbar'>
 					<li><a href="#">Головна</a></li>
@@ -35,6 +35,7 @@
 							<select class="lang" onchange="setLanguage(this.value)">
 								<option value="UA">UA</option>
 								<option value="EN" selected="selected">EN</option>
+								<option value="ru">ru</option>
 							</select>
 						</li>
 						<li class="active"><a href="#">Main Page <span class="sr-only">(current)</span></a></li>
@@ -213,7 +214,7 @@
 					<li> serve as a structure depositing metabolic energy (there are no analogues in energy potential);</li>
 					<li> are a structural components of membranes, provide their elasticity, prevent formation of free radicals, increasing by this antioxidant defense of animals, and reduce negative influence of stress factors;</li>
 					<li> improve the transport capability of cell membranes, i.e., assist in absorption of nutrients of the feed and in growth and development of animals;</li>
-					<li> покращують кальцифікацію кісток та формування кістково-м'язової системи, процес кровотворення.</li>
+					<li> improve calcification of bones, formation of musculoskeletal system and blood formation.</li>
 				</ul>
 				
 				<p>For animals, the most significant are unsaturated fatty acids, such as linoleic acid, which is not produced in organisms; therefore they have to be supplied with feed. In case of deficiency of this acid, growth gets suspended, resistance to infections and stresses weakens.</p>
@@ -461,5 +462,8 @@
 			</div>
 		</footer>
 		<button class='btn-scroll' onclick='scrollToTop()'>&#8593;</button>
+		<div class='div-hello'>
+			<!-- <img src='./images/header-sun2.jpg' alt='Lecithin BIOLER is the better than good' width="100%" height="100%"/> -->
+		</div>
 	</body>
 </content>
