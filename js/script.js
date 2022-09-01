@@ -1,4 +1,3 @@
-'use strict'
 /*=========== Carousel ===========*/
 
 let prevHref = (item, index, array) => {
@@ -106,7 +105,4 @@ const scrollToTop = () => {
 
 /*=========== Picture dissapear ===========*/
 
-$(`window`).on(`load`, () => {
-
-	$(`.div-hello`).delay(2000).fadeOut(500);
-});
+$(`.div-hello`).delay(2000).fadeOut(500);
