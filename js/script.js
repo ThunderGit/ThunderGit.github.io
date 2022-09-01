@@ -1,3 +1,4 @@
+'use strict'
 /*=========== Carousel ===========*/
 
 let prevHref = (item, index, array) => {
