@@ -17,6 +17,11 @@ html,body{
 	background-size: 100% 100%;
 }
 
+.scroll-stop {
+	height: 100%;
+	overflow: hidden;
+}
+
 .header{
 	position: relative;
 	margin-bottom: -20px;
@@ -338,7 +343,6 @@ html,body{
 	text-align: center;
 	font-weight: 550;
 }
-
 /**sections**/
 
 .header::before{
