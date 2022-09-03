@@ -361,6 +361,7 @@ html,body{
 	.div-hello{
 		background-image: url('../images/header-sun.jpg');
 	}
+
 	.btn-scroll{
 		font-size: 6vw;
 		width: 10vw;
@@ -423,6 +424,11 @@ html,body{
 	.article p{
 		padding-left: 3vw;
 		padding-right: 25vw;
+	}
+
+	.article ol,
+	.article ul{
+		padding-left: 10vw;
 	}
 
 	.article li{
