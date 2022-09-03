@@ -361,10 +361,10 @@ html,body{
 /****** Responsive styles ******/
 @media only screen and (max-width: 990px){
 
-	.header::before,
-	.section::before,
-	.footer::before{
-		background-position: right;
+	.btn-scroll{
+		font-size: 5vw;
+		width: 8vw;
+		height: 8vw;
 	}
 
 	.article p, .article li,
