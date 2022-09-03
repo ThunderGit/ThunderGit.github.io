@@ -1,6 +1,7 @@
 html,body{
 	margin: 0 auto;
 	font-family: Microsoft Sans Serif, Trebuchet MS, Franklin Gothic, Verdana, sans-serif !important;
+	background-color: rgba(181,236,255);
 }
 
 .div-hello {
@@ -110,7 +111,7 @@ html,body{
 	bottom: 2vw;
 	right: 2vw;
 	font-size: 2.5vw;
-	padding: 0 0.5vw 1vw 0.5vw;
+	padding: 0 0.5vw 1vw 0.4vw;
 	width: 4vw;
 	height: 4vw;
 	background-color: rgba(0,116,214);
@@ -138,10 +139,6 @@ html,body{
 	bottom: 0px;
 	left: 0px;
 	background-attachment: fixed;
-}
-
-.section:nth-child(odd){
-	background-color: rgba(181,236,255);
 }
 
 .section-title{
