@@ -248,6 +248,11 @@ html,body{
 	padding: 0 18vw;
 }
 
+.carousel1 .carousel-control,
+.carousel3 .carousel-control{
+	margin-bottom: 18vw !important;
+}
+
 .glyphicon{
 	color: rgba(0,75,0,0.95);
 }
