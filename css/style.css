@@ -219,7 +219,6 @@ html,body{
 
 .item-caption{
 	height: 3vw;
-	padding-top: 1vw;
 	padding-bottom: 4.25vw;
 }
 
@@ -246,6 +245,7 @@ html,body{
 .carousel-control{
 	background-image: none !important;
 	filter: none !important;
+	padding: 0 18vw;
 }
 
 .glyphicon{
