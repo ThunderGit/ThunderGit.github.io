@@ -346,10 +346,12 @@ html,body{
 .header::before{
 	background-image: url("../images/section-sun.jpg");
 }
+
 .section::before{
 	background-image: url("../images/section-sun.jpg");
 	background-position: right;
 }
+
 .footer::before{
 	background-image: url("../images/footer-sun.jpg");
 	background-position: center;
@@ -368,6 +370,10 @@ html,body{
 		width: 10vw;
 		height: 10vw;
 		border-radius: 12vw;
+	}
+
+	.section::before{
+		background-image: url('../images/section-sun-alt.jpg');
 	}
 
 	.article p, .article li,
@@ -433,7 +439,7 @@ html,body{
 	}
 
 	.article li{
-		padding-right: 12vw;
+		padding-right: 14vw;
 	}
 
 	.item-image{
