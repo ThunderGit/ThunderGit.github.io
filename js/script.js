@@ -105,7 +105,7 @@ const scrollToTop = () => {
 /*=========== Picture dissapear ===========*/
 
 
-$(`.div-hello`).delay(2000).fadeOut(500);
+$(`.div-hello`).delay(2000).fadeOut(2000);
 
 setTimeout( () => {
 	$(`.body`).removeClass(`scroll-stop`);
