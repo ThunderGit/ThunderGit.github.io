@@ -41,7 +41,7 @@ html,body{
 	list-style-type: none;
 	overflow: hidden;
 	border-radius: 0 !important;
-	background-color: rgba(253,255,164);
+	/*background-color: rgba(253,255,164);*/
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -89,7 +89,7 @@ html,body{
 	border: 1px solid rgba(2,36,163);
 	border-radius: 2px;
 	background-color: rgba(2,36,163);
-	color: rgba(253,255,164);
+	color: rgba(181,236,255);
 	outline: none;
 	cursor: pointer;
 }
@@ -218,8 +218,9 @@ html,body{
 }
 
 .item-caption{
-	padding-bottom: 4.25vw;
 	height: 3vw;
+	padding-top: 1vw;
+	padding-bottom: 4.25vw;
 }
 
 .item-check{
