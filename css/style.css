@@ -287,9 +287,28 @@ html,body{
 	margin: 1vw;
 }
 
+.section-image-div{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
 .section-image__about{
-	width: 100%;
+	width: 50%;
   	height: auto;
+  	margin: 0 18vw;
+}
+
+.section-image-div > .section-image-div__about{
+	width: 25%;
+	margin: 0 9.25vw;
+}
+
+.section-image__deliveries{
+	width: 75%;
+	height: auto;
+	margin: 0 2vw;
 }
 
 .farmUse {
@@ -304,6 +323,32 @@ html,body{
 .farmUse > .farmUse-examp:before {
 	content: counter(list) ") ";
 	counter-increment: list;
+}
+
+.div-autho{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-self: center;
+	padding-right: 20vw;
+}
+
+.div-autho-sub{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.div-autho > .image-autho{
+	width: 30%;
+	height: 30vw;
+	align-self: center;
+}
+
+.div-autho-sub > .image-autho{
+	padding: 1vw 0;
 }
 
 .alpha{
@@ -330,14 +375,14 @@ html,body{
 	padding: 1vw;
 }
 
-.info a{
+.contacts a{
 	color: rgba(0,0,120);
 	text-decoration: none;
 }
 
-.info a:hover,
-.info a:focus{
-	color: rgba(0,100,0);
+.contacts a:hover,
+.contacts a:focus{
+	color: rgba(0,75,0);
 	text-decoration: underline;
 }
 
@@ -346,6 +391,12 @@ html,body{
 	text-align: center;
 	font-weight: 550;
 }
+
+.logo{
+	width: 25%;
+	height: auto;
+}
+
 /**sections**/
 
 .header::before{
@@ -384,8 +435,9 @@ html,body{
 	.article p, .article li,
 	.item-title, .item-info,
 	.item-check, .item-watch,
-	.item-note, .info p,
-	.address p, .copyright
+	.item-note, .address p,
+	.phones p, .emails p,
+	.copyright
 	{
 		font-size: 4vw;
 	}
@@ -458,8 +510,26 @@ html,body{
 	}
 
 	.section-image__about{
-		width: 75%;
-		height: 75%;
+		margin: 0 18vw;
+	}
+
+	.section-image-div > .section-image-div__about{
+		width: 50%;
+		margin: 3vw 18vw;
+	}
+
+	.section-image__deliveries{
+		width: 80%;
+	}
+
+	.div-autho > .image-autho{
+		width: 50%;
+		height: 50vw;
+		background-color: gold;
+	}
+
+	.div-autho-sub > .image-autho{
+		width: 50%;
 	}
 
 	.aside{
@@ -467,7 +537,7 @@ html,body{
 	}
 
 	.footer{
-		height: 150vw;
+		height: 180vw;
 	}
 
 	.contacts{
@@ -475,12 +545,16 @@ html,body{
 		justify-content: flex-start;
 	}
 
-	.address{
+	.address, .phones{
 		padding-bottom: 6vw;
 	}
 	
 	.address p b{
 		display: block;
+	}
+
+	.logo{
+		width: 50%;
 	}
 
 }
@@ -539,8 +613,18 @@ html,body{
 	}
 
 	.section-image__about{
-		width: 125%;
-		height: 125%;
+		width: 25%;
+		margin: 0 34vw;
+	}
+
+	.div-autho > .image-autho{
+		width: 25%;
+		height: 25%;
+	}
+
+	.div-autho-sub > .image-autho{
+		width: 25vw;
+		height: auto;
 	}
 
 	.footer p,
