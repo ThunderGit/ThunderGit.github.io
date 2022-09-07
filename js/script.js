@@ -45,11 +45,11 @@ $(`.right1`).click( () => {
 	prodIndex = nextHref($('.item-info .item-title'), prodIndex, prods);
 });
 
-$(`.left3`).click( () => {
+$(`.left2`).click( () => {
 	certsIndex = prevHref($('.item-watch .item-title'), certsIndex, certs);
 });
 
-$(`.right3`).click( () => {
+$(`.right2`).click( () => {
 	certsIndex = nextHref($('.item-watch .item-title'), certsIndex, certs);
 });
 
