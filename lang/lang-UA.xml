@@ -2,24 +2,6 @@
 	<title class='title title-UA'>Лецитин із соняшника знежирений у порошку</title>
 	<body class='body body-UA'>
 		<header class='header'>
-			<!-- <div class='logo'>
-				<a href="#"><img class='logo-gif' src="./images/logo.gif" alt="logo.gif"/></a>
-				<div class='header2'>
-					<h2>Їжа, корма, фармацевтичні фосфоліпіди</h2>
-					<h2>Технологія фосфоліпідів соняшнику</h2>
-				</div>
-				
-			</div> -->
-			<!-- <nav>
-				<ul id='navbar' class='navbar'>
-					<li><a href="#">Головна</a></li>
-					<li><a href="#products">Продукція</a></li>
-					<li><a href="#effectiveness">Ефективність застосування</a></li>
-					<li><a href="#ecosolutions">Еко рішення</a></li>
-					<li><a href="#authorizations">Дозвільна документація</a></li>
-					<li><a href="#about">Про нас</a></li>
-				</ul>
-			</nav> -->
 			<nav class="navbar">
 				
 				<button type="button" class="navbar-toggle collapsed btn-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -272,6 +254,7 @@
 			</header>
 			<article class='article'>
 				<h2 hidden='hidden'>Переваги</h2>
+				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'>
 				<p>
 					Переваги знежиреного соняшникового лецитину та продуктів його переробки виробництва компанії ТОВ &quot;НВП &quot;БІОЛЕР&quot;:</p>
 					<ul>
@@ -284,50 +267,6 @@
 						</li>
 						<li>не містить фітоестрогенів.</li>
 					</ul>
-
-					<div id="myCarousel2" class="carousel slide" data-interval="false" data-ride="carousel2">
-					
-						<div class="carousel-inner" role="listbox">
-							
-							<div class="item active">
-								<img src="images/page4_pic1.png" alt="ck_dieticheskay_dobavka_lecitin" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic2.png" alt="ck_50_rastvor_etiloviy_spirt" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic3.png" alt="ck_50_rozchyn_izopropiloviy_spirt" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic4.png" alt="ck_oliya_koncentrata.pdf" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic5.png" alt="ck_kormova_dobavka_lecitin" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic6.png" alt="ck_lecitin" class='center-block item-image'/>
-							</div>
-
-							<div class="item">
-								<img src="images/page4_pic7.png" alt="сухий соняшниковий фосфатидилхолін із вмістом основної речовини 70,0-97,0%" class='center-block item-image'/>
-							</div>
-
-						</div>
-							
-						<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
 			</article>
 		</section>
 
@@ -338,7 +277,32 @@
 				</h2>
 			</header>
 			<article class='article'>
-				<div id="myCarousel3" class="carousel slide" data-interval="false" data-ride="carousel3">
+				<header>
+					<h3 class='article-title'>Виробництво сертифіковане за стандартами ISO 22000, Kosher та Halal</h3>
+				</header>
+
+				<p>Якість знемасленого соняшникового лецитину BIOLER протестовано та схвалено в Ізраїлі, Південній Кореї, США та країнах ЄС.</p>
+				<div class='div-autho'>
+					<img class='image-autho image-autho-1' src='./images/autho1.jpg' alt='autho1.jpg'/>
+					<div class='div-autho-sub'>
+						<img class='image-autho image-autho-sub' src='./images/autho2.jpg' alt='autho2.jpg'/>
+						<img class='image-autho image-autho-sub' src='./images/autho3.jpg' alt='autho3.jpg'/>
+					</div>
+				</div>
+				<p><b>У внутрішній лабораторії вказані такі параметри:</b></p>
+				<ul>
+					<li>Масовий відсоток вологи;</li>
+					<li>Масовий відсоток олії;</li>
+					<li>Кількість перекису;</li>
+					<li>Кількість кислоти;</li>
+					<li>мМасовий відсоток речовин, нерозчинних у толуолі;</li>
+					<li>Масовий відсоток фосфоліпідів;</li>
+					<li>pH 1% водного розчину.</li>
+				</ul>
+				<p>
+					Для всіх інших аналізів ми використовуємо аутсорсингові лабораторії, сертифіковані відповідно до ISO/IEC 17025:2017.
+				</p>
+				<div id="myCarousel2" class="carousel carousel2 slide" data-interval="false" data-ride="carousel2">
 				
 					<div class="carousel-inner" role="listbox">
 						
@@ -390,12 +354,12 @@
 						</span>
 					</div>
 
-					<a class="left left3 carousel-control" href="#myCarousel3" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
+					<a class="left left2 carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon2 glyphicon-chevron-left " aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="right right3 carousel-control" href="#myCarousel3" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<a class="right right2 carousel-control" href="#myCarousel2" role="button" data-slide="next">
+						<span class="glyphicon glyphicon2 glyphicon-chevron-right" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 
@@ -410,20 +374,35 @@
 					<b>Про нас</b>
 				</h2>
 			</header>
-			<!-- <aside class='aside'>
-				<div class='premium'>
-					<img class='section-image section-image__about' src="images/2.jpg" alt='images/2.jpg'/>
-				</div>
-			</aside> -->
+
 			<article class='article'>
 				<h2 hidden='hidden'>ТОВ &#171;НВП &#171;БІОЛЕР&#187;</h2>
 
-				<p>ТОВ &#171;НВП &#171;БІОЛЕР&#187; втілює у собі об'єднання науки та бізнесу. Ми маємо 35-річний досвід розробки та впровадження інноваційних технологій виділення соняшникових фосфоліпідів. Технології та способи застосування одержуваних продуктів захищені 18 патентами України. Компанія зареєстрована у 2013 році. Засновники &#8211; приватні особи.</p>
-				<p>Підприємство розташовано поблизу міста Дніпра. Площа &#8211; 1 га.</p>
+				<p>ТОВ &#171;НВП &#171;БІОЛЕР&#187; заснована в 2013 році на основі 35-річного досвіду розробки та впровадження інноваційних технологій екстракції фосфоліпідів соняшнику.</p>
+				<div class='section-image-div'>
+					<img class='section-image__about' src='./images/about-warehouse.jpg' alt='about-warehouse.jpg'/>
+					<img class='section-image__about' src='./images/about-snow.jpg' alt='about-snow.jpg'/>
+				</div>
 
-				<p>Випробування соняшникового знежиреного лецитину, сухого фосфатидилхоліну та його розчинів, проведені у Німеччині, Франції, Південній Кореї, Ізраїлі, Іспанії та США, показали відповідність наших продуктів найкращим світовим аналогам.</p>
+				<p>Технології та способи застосування видобутих продуктів захищені 18 патентами України.</p>
+				<img class='section-image__about' src='./images/about1.jpg' alt='about1.jpg'/>
 				
-				<p>Виробництво збудовано з отриманням усієї нормативно-технічної дозвільної документації, передбаченої законодавством України.</p>
+				<p>Виробнича потужність становить 25 тонн на місяць. Роботодавців &#8212;  35 чол.</p>			
+				<img class='section-image__about' src='./images/about2.jpg' alt='about2.jpg'/>
+
+				<p>
+					Переваги нашого заводу:
+					<ul>
+						<li>
+							близький доступ до високоякісної сировини (сосняшниковий фосфатидний концентрат або неочищений соняшниковий лецитин рідкий). Україна є одним із провідних світових виробників та постачальників насіння соняшнику та соняшникової олії;
+						</li>
+						<li>єдиний в Україні виробник порошку знежиреного соняшникового лецитину;</li>
+						<li>висока якість виробленого продукту;</li>
+						<li>висококваліфіковані працівники.</li>
+					</ul>
+				</p>
+
+				<img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/>
 			</article>
 		</section>
 
@@ -436,27 +415,44 @@
 					<p>Адреса: 
 						<b>вул. Степова 1а, с. Новоолександрівка, Дніпропетровська область, 52070 Україна</b>
 					</p>
-					<p>Поштова адреса: 
-						<b>а/с 2263, м. Дніпро, 49038</b>
+					<p>Веб-сайт:
+						<a href="https://www.biolerlecithin.com">
+							<b>www.biolerlecithin.com</b>
+						</a>
 					</p>
+
 				</div>
-				<div class='info'>
+				<div class='phones'>
 					<p>
-						Телефон/ФАКС:
+						Тел.:
 						<a href="tel:+380567676163">
 							<b>+ 38 056 767 61 63</b>
 						</a>
 					</p>
 					<p>
-						Загальна інформація:
-						<a href="mailto:dacs@optima.com.ua">
-							<b>dacs@optima.com.ua</b>
+						Моб.:
+						<a href="tel:+380679594180">
+							<b>+ 38 067 959 41 80</b>
 						</a>
 					</p>
 					<p>
-						Відділ продажів:
+						Моб.:
+						<a href="tel:+380675686200">
+							<b>+ 38 067 568 62 00</b>
+						</a>
+					</p>
+				</div>
+				<div class="emails">
+					<p>
+						Email:
 						<a href="mailto:tov@biolerlecithin.com">
 							<b>tov@biolerlecithin.com</b>
+						</a>
+					</p>
+					<p>
+						Email:
+						<a href="mailto:bioler@ukr.net">
+							<b>bioler@ukr.net</b>
 						</a>
 					</p>
 				</div>
@@ -464,6 +460,9 @@
 			<div class='copyright'>
 				<span class='LTD'>&#169; 2022 ТОВ &#171;Науково-Виробниче Підприємство &#171;БІОЛЕР&#187; </span>
 				<p>Усі права захищені</p>
+				<a href='#'>
+					<img class='logo' src='./images/logo.png' alt='logo'/>
+				</a>
 			</div>
 		</footer>
 		<button class='btn-scroll' onclick='scrollToTop()'>&#8593;</button>
