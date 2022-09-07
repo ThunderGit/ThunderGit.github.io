@@ -158,8 +158,8 @@ html,body{
 }
 
 .section-image{
-	width: 15vw;
-	height: 55vw;
+	width: 55vw;
+	height: auto;
 }
 
 .article{
@@ -261,11 +261,11 @@ html,body{
 	color: rgba(0,75,0,1.0);
 }
 
-.glyphicon3{
+.glyphicon2{
 	color: rgba(2,36,163,0.95);
 }
 
-.glyphicon3:hover{
+.glyphicon2:hover{
 	color: rgba(2,36,163,1.0);
 }
 
@@ -277,14 +277,16 @@ html,body{
 	font-weight: 550;
 }
 
-.aside{
-	float: left;
-	padding: 0 10px;
+.premium{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1vw 20vw 1vw 5vw;
 }
 
-.premium{
-	text-align: center;
-	margin: 1vw;
+.premium-image{
+	align-self: center;
+	width: 8vw;
 }
 
 .section-image-div{
@@ -292,6 +294,12 @@ html,body{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: flex-start;
+}
+
+.section-image{
+	width: 20vw;
+	height: auto;
+	margin: 0 34vw;
 }
 
 .section-image__about{
@@ -472,8 +480,7 @@ html,body{
 	}
 
 	.section,
-	.article,
-	.aside{
+	.article{
 		padding: 2vw 1vw;
 	}
 
@@ -504,9 +511,13 @@ html,body{
 		height: auto;
 	}
 
+	.premium-image{
+		width: 16vw;
+		margin: 0 34vw 0 24vw;
+	}
+
 	.section-image{
-		width: 25vw;
-		height: 90vw;
+		width: 45vw;
 	}
 
 	.section-image__about{
@@ -530,10 +541,6 @@ html,body{
 
 	.div-autho-sub > .image-autho{
 		width: 50%;
-	}
-
-	.aside{
-		float: none;
 	}
 
 	.footer{
@@ -591,8 +598,7 @@ html,body{
 	}
 
 	.section,
-	.article,
-	.aside{
+	.article{
 		padding: 1vw 0.5vw;
 	}
 
@@ -606,10 +612,8 @@ html,body{
 		height: 25%;
 	}
 
-	.section-image
-	{
-		width: 15vw;
-		height: 50vw;
+	.premium-image{
+		width: 10vw;
 	}
 
 	.section-image__about{
