@@ -254,9 +254,8 @@
 			</header>
 			<article class='article'>
 				<h2 hidden='hidden'>Переваги</h2>
-				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'>
-				<p>
-					Переваги знежиреного соняшникового лецитину та продуктів його переробки виробництва компанії ТОВ &quot;НВП &quot;БІОЛЕР&quot;:</p>
+				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'/>
+				<p>Переваги знежиреного соняшникового лецитину та продуктів його переробки виробництва компанії ТОВ &quot;НВП &quot;БІОЛЕР&quot;:</p>
 					<ul>
 						<li>не містить ГМО;</li> 
 						<li>не містить алергенів, тому на відміну від соєвого лецитину, не вимагає спеціального маркування відповідно до:
@@ -402,7 +401,52 @@
 					</ul>
 				</p>
 
-				<img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/>
+				</article>
+			<article class='article'>
+				<!-- <img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/> -->
+				<header>
+					<h3 class='article-title'>Доставка по всьому світу</h3>
+				</header>
+				<div class='Ukraine'>
+					<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
+					<p>BIOLER отримав схвалення постачання та якості від клієнтів у таких країнах, як:</p>
+				</div>
+				<div class='deliveries'>
+					<div class='top-row'>
+						<div class='country'>
+							<h4 class='country-name'>Австрія</h4>
+							<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Словаччина</h4>
+							<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Болгарія</h4>
+							<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Сербія</h4>
+							<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
+						</div>
+					</div>
+					<div class='middle-row'>
+						<div class='country'>
+							<h4 class='country-name'>Ізраїль</h4>
+							<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Південна Корея</h4>
+							<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
+						</div>
+					</div>
+					<div class='bottom-row'>
+						<div class='country'>
+							<h4 class='country-name'>США</h4>
+							<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
+						</div>
+					</div>
+				</div>
 			</article>
 		</section>
 

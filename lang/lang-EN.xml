@@ -279,9 +279,8 @@
 			</header>
 			<article class='article'>
 				<h2 hidden="hidden">Advantages</h2>
-				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'>
-				<p>
-					Advantages of deoiled sunflower lecithin and related products manufactured by BIOLER:</p>
+				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'/>
+				<p>Advantages of deoiled sunflower lecithin and related products manufactured by BIOLER:</p>
 					<ul>
 						<li>GMO free;</li> 
 						<li>Allergen-free, therefore, unlike soy lecithin, do not require special marking according to:
@@ -427,7 +426,52 @@
 					</ul>
 				</p>
 
-				<img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/>
+				</article>
+				<article class='article'>
+					<!-- <img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/> -->
+					<header>
+						<h3 class='article-title'>Worldwide Deliveries</h3>
+					</header>
+					<div class='Ukraine'>
+						<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
+						<p>BIOLER has got Supply and Quality approval by customers in:</p>
+					</div>
+					<div class='deliveries'>
+						<div class='top-row'>
+							<div class='country'>
+								<h4 class='country-name'>Austria</h4>
+								<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
+							</div>
+							<div class='country'>
+								<h4 class='country-name'>Slovakia</h4>
+								<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
+							</div>
+							<div class='country'>
+								<h4 class='country-name'>Bulgaria</h4>
+								<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
+							</div>
+							<div class='country'>
+								<h4 class='country-name'>Serbia</h4>
+								<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
+							</div>
+						</div>
+						<div class='middle-row'>
+							<div class='country'>
+								<h4 class='country-name'>Israel</h4>
+								<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
+							</div>
+							<div class='country'>
+								<h4 class='country-name'>South Korea</h4>
+								<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
+							</div>
+						</div>
+						<div class='bottom-row'>
+							<div class='country'>
+								<h4 class='country-name'>USA</h4>
+								<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
+							</div>
+						</div>
+					</div>
 			</article>
 		</section>
 
@@ -440,7 +484,7 @@
 					</p>
 					<p>
 						Address: 
-						<b>52070 v.Novooleksandrivka Dnipropetrovsk region, Stepova str. 1A </b>
+						<b>52070 v. Novooleksandrivka Dnipropetrovsk region, Stepova str. 1A </b>
 					</p>
 					<p>
 						Web-Site:
