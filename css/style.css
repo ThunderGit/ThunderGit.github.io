@@ -155,7 +155,7 @@ html,body{
 .section:nth-child(even) .section-title{
 	position: relative;
 	color: rgba(0,75,0);
-
+}
 
 .article{
 	position: relative;
@@ -243,8 +243,7 @@ html,body{
 	padding: 0 18vw;
 }
 
-.carousel1 .carousel-control,
-.carousel2 .carousel-control{
+.carousel-controll{
 	margin-bottom: 18vw !important;
 }
 
@@ -450,6 +449,7 @@ html,body{
 	}
 
 	.item-caption{
+		padding-top: 2vw;
 		padding-bottom: 16vw;
 	}
 
@@ -509,7 +509,12 @@ html,body{
 	.premium-image{
 		width: 16vw;
 		margin: 0 34vw 0 24vw;
-        }
+	}
+
+	.section-image{
+		width: 34vw;
+		margin: 0 26vw;
+	}
 
 	.section-image__about{
 		margin: 0 18vw;
@@ -524,18 +529,20 @@ html,body{
 		width: 80%;
 	}
 
-	.div-autho > .image-autho{
-		width: 50%;
-		height: 50vw;
-		background-color: gold;
+	.div-autho{
+		flex-direction: column;
+		height: auto;
 	}
 
+	.div-autho > .image-autho,
 	.div-autho-sub > .image-autho{
-		width: 50%;
+		width: 30vw;
+		height: auto;
+		padding: 2vw 0;
 	}
 
 	.footer{
-		height: 180vw;
+		height: 200vw;
 	}
 
 	.contacts{
