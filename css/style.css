@@ -508,7 +508,6 @@ html,body{
 
 	.premium-image{
 		width: 16vw;
-		margin: 0 34vw 0 24vw;
 	}
 
 	.section-image{
@@ -550,7 +549,8 @@ html,body{
 		justify-content: flex-start;
 	}
 
-	.address, .phones{
+	.address,
+	.phones{
 		padding-bottom: 6vw;
 	}
 	
