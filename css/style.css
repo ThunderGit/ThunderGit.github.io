@@ -155,12 +155,7 @@ html,body{
 .section:nth-child(even) .section-title{
 	position: relative;
 	color: rgba(0,75,0);
-}
 
-.section-image{
-	width: 55vw;
-	height: auto;
-}
 
 .article{
 	position: relative;
@@ -249,7 +244,7 @@ html,body{
 }
 
 .carousel1 .carousel-control,
-.carousel3 .carousel-control{
+.carousel2 .carousel-control{
 	margin-bottom: 18vw !important;
 }
 
@@ -514,11 +509,7 @@ html,body{
 	.premium-image{
 		width: 16vw;
 		margin: 0 34vw 0 24vw;
-	}
-
-	.section-image{
-		width: 45vw;
-	}
+        }
 
 	.section-image__about{
 		margin: 0 18vw;
