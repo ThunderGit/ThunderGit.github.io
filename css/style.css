@@ -288,7 +288,7 @@ html,body{
 	margin-top: 0;
 	text-align: center;
 	padding: 20px 0 10px 0;
-	font-weight: 550;
+	font-weight: bold;
 }
 
 .premium{
@@ -361,7 +361,7 @@ html,body{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	padding-left: 3vw;
+	padding: 2vw 0 2vw 3vw;
 }
 
 .Ukraine-content{
