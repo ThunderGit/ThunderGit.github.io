@@ -306,13 +306,19 @@
 				</header>
 
 				<p>The quality of BIOLER De-oiled Sunflower Lecithin powder has been tested and approved in Israel, South Korea, USA and EU countries.</p>
-				<div class='div-autho'>
-					<img class='image-autho image-autho-1' src='./images/autho1.jpg' alt='autho1.jpg'/>
-					<div class='div-autho-sub'>
-						<img class='image-autho image-autho-sub' src='./images/autho2.jpg' alt='autho2.jpg'/>
-						<img class='image-autho image-autho-sub' src='./images/autho3.jpg' alt='autho3.jpg'/>
-					</div>
-				</div>
+				</article>
+		</section>
+
+		<section class='whiteboard'>
+			<div class='div-autho'>
+				<img class='image-autho' src='./images/autho2.jpg' alt='autho2.jpg'/>
+				<img class='image-autho' src='./images/autho1.jpg' alt='autho1.jpg'/>
+				<img class='image-autho' src='./images/autho3.jpg' alt='autho3.jpg'/>
+			</div>
+		</section>
+
+		<section class="section authorizations">
+			<article class='article'>
 				<p><b>The following parameters are indicated in the in-house lab:</b></p>
 				<ul>
 					<li>Mass percentage of moisture;</li>
@@ -403,17 +409,38 @@
 
 
 				<p> Scientific &amp; Manufacturing Enterprise &#171;BIOLER Ltd.&#187; was founded in 2013 year on the base of 35-year experience of development and implementation of innovative technologies for extraction of sunflower phospholipids.</p>
-				<div class='section-image-div'>
-					<img class='section-image__about' src='./images/about-warehouse.jpg' alt='about-warehouse.jpg'/>
-					<img class='section-image__about' src='./images/about-snow.jpg' alt='about-snow.jpg'/>
-				</div>
+				</article>
+		</section>
 
+		<section class='whiteboard'>
+			<div class='section-image-div'>
+				<img class='section-image-div__about' src='./images/about-warehouse.jpg' alt='about-warehouse.jpg'/>
+				<img class='section-image-div__about' src='./images/about-snow.jpg' alt='about-snow.jpg'/>
+			</div>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
 				<p>Technologies and methods of applications of extracted products are protected with 18 patents of Ukraine.</p>
-				<img class='section-image__about' src='./images/about1.jpg' alt='about1.jpg'/>
-				
-				<p>Production capacity is 25 MT monthly. Employers &#8212; 35 people.</p>			
-				<img class='section-image__about' src='./images/about2.jpg' alt='about2.jpg'/>
+			</article>
+		</section>
 
+		<section class='whiteboard'>
+			<img class='section-image__about' src='./images/about1.jpg' alt='about1.jpg'/>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
+				<p>Production capacity is 25 MT monthly. Employers &#8212; 35 people.</p>
+			</article>
+		</section>
+
+		<section class='whiteboard'>
+			<img class='section-image__about' src='./images/about2.jpg' alt='about2.jpg'/>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
 				<p>
 					The advantages of our plant:
 					<ul>

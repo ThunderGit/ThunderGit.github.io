@@ -26,7 +26,6 @@
 						<li><a href="#ecosolutions">Еко рішення</a></li>
 						<li><a href="#authorizations">Дозвільна документація</a></li>
 						<li><a href="#about">Про нас</a></li>
-
 					</ul>
 				</div>
 			</nav>
@@ -281,13 +280,19 @@
 				</header>
 
 				<p>Якість знемасленого соняшникового лецитину BIOLER протестовано та схвалено в Ізраїлі, Південній Кореї, США та країнах ЄС.</p>
-				<div class='div-autho'>
-					<img class='image-autho image-autho-1' src='./images/autho1.jpg' alt='autho1.jpg'/>
-					<div class='div-autho-sub'>
-						<img class='image-autho image-autho-sub' src='./images/autho2.jpg' alt='autho2.jpg'/>
-						<img class='image-autho image-autho-sub' src='./images/autho3.jpg' alt='autho3.jpg'/>
-					</div>
-				</div>
+			</article>
+		</section>
+
+		<section class='whiteboard'>
+			<div class='div-autho'>
+				<img class='image-autho' src='./images/autho2.jpg' alt='autho2.jpg'/>
+				<img class='image-autho' src='./images/autho1.jpg' alt='autho1.jpg'/>
+				<img class='image-autho' src='./images/autho3.jpg' alt='autho3.jpg'/>
+			</div>
+		</section>
+
+		<section class="section authorizations">
+			<article class='article'>
 				<p><b>У внутрішній лабораторії вказані такі параметри:</b></p>
 				<ul>
 					<li>Масовий відсоток вологи;</li>
@@ -378,19 +383,39 @@
 				<h2 hidden='hidden'>ТОВ &#171;НВП &#171;БІОЛЕР&#187;</h2>
 
 				<p>ТОВ &#171;НВП &#171;БІОЛЕР&#187; заснована в 2013 році на основі 35-річного досвіду розробки та впровадження інноваційних технологій екстракції фосфоліпідів соняшнику.</p>
-				<div class='section-image-div'>
-					<img class='section-image__about' src='./images/about-warehouse.jpg' alt='about-warehouse.jpg'/>
-					<img class='section-image__about' src='./images/about-snow.jpg' alt='about-snow.jpg'/>
-				</div>
+				</article>
+		</section>
 
+		<section class='whiteboard'>
+			<div class='section-image-div'>
+				<img class='section-image-div__about' src='./images/about-warehouse.jpg' alt='about-warehouse.jpg'/>
+				<img class='section-image-div__about' src='./images/about-snow.jpg' alt='about-snow.jpg'/>
+			</div>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
 				<p>Технології та способи застосування видобутих продуктів захищені 18 патентами України.</p>
-				<img class='section-image__about' src='./images/about1.jpg' alt='about1.jpg'/>
-				
-				<p>Виробнича потужність становить 25 тонн на місяць. Роботодавців &#8212;  35 чол.</p>			
-				<img class='section-image__about' src='./images/about2.jpg' alt='about2.jpg'/>
+			</article>
+		</section>
 
-				<p>
-					Переваги нашого заводу:
+		<section class='whiteboard'>
+			<img class='section-image__about' src='./images/about1.jpg' alt='about1.jpg'/>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
+				<p>Виробнича потужність становить 25 тонн на місяць. Роботодавців &#8212; 35 чол.</p>
+			</article>
+		</section>
+
+		<section class='whiteboard'>
+			<img class='section-image__about' src='./images/about2.jpg' alt='about2.jpg'/>
+		</section>
+
+		<section class="section about">
+			<article class='article'>
+				<p>Переваги нашого заводу:
 					<ul>
 						<li>
 							близький доступ до високоякісної сировини (сосняшниковий фосфатидний концентрат або неочищений соняшниковий лецитин рідкий). Україна є одним із провідних світових виробників та постачальників насіння соняшнику та соняшникової олії;
