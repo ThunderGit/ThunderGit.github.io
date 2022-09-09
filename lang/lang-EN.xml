@@ -454,6 +454,7 @@
 				</p>
 
 				</article>
+				
 				<article class='article'>
 					<!-- <img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/> -->
 					<header>
@@ -461,7 +462,7 @@
 					</header>
 					<div class='Ukraine'>
 						<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
-						<p>BIOLER has got Supply and Quality approval by customers in:</p>
+						<span class='Ukraine-content'>BIOLER has got Supply and Quality approval by customers in:</span>
 					</div>
 					<div class='deliveries'>
 						<div class='top-row'>
