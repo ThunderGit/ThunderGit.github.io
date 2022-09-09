@@ -165,13 +165,29 @@ html,body{
 
 .article p{
 	text-indent: 3vw;
-	padding: 2vw 20vw 2vw 0;
 	font-size: 1.4vw;
+}
+
+.section:nth-child(odd) .article p{
+	padding: 2vw 20vw 2vw 0;
+}
+
+.section:nth-child(even) .article p{
+	padding: 2vw 0vw 2vw 20vw;
 }
 
 .article li{
 	font-size: 1.4vw;
+}
+
+.section:nth-child(odd) .article ol,
+.section:nth-child(odd) .article ul{
 	padding-right: 20vw;
+}
+
+.section:nth-child(even) .article ol:not(:first-child),
+.section:nth-child(even) .article ul:not(:first-child){
+	padding-left: 22vw;
 }
 
 .section:nth-child(even){
@@ -305,16 +321,18 @@ html,body{
 	height: auto;
 }
 
-.section-image{
-	width: 20vw;
-	height: auto;
-	margin: 0 34vw;
-}
-
+.section-image,
 .section-image__about{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.section-image{
+	width: 20vw;
+}
+
+.section-image__about{
 	width: 40vw;
 	padding: 4vw;
 }
@@ -341,14 +359,22 @@ html,body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 3vw 0 3vw 18vw;
+	justify-content: center;
+	align-items: center;
+	padding-left: 3vw;
+}
+
+.Ukraine-content{
+	padding: 0 2vw;
+	text-indent: 3vw;
+	font-size: 1.4vw;
 }
 
 .deliveries{
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	padding-right: 20vw;
+	padding-left: 17.5vw;
 	width: 12vw;
 }
 
@@ -432,9 +458,14 @@ html,body{
 	background-image: url("../images/section-sun.jpg");
 }
 
-.section::before{
+.section:nth-child(odd)::before{
 	background-image: url("../images/section-sun.jpg");
 	background-position: right;
+}
+
+.section:nth-child(even)::before{
+	background-image: url("../images/section-sun-rev.jpg");
+	background-position: left;
 }
 
 .footer::before{
@@ -457,16 +488,25 @@ html,body{
 		border-radius: 12vw;
 	}
 
-	.section::before{
+	.section:nth-child(odd)::before{
 		background-image: url('../images/section-sun-alt.jpg');
+	}
+
+	.section:nth-child(even)::before{
+		background-image: url('../images/section-sun-alt-rev.jpg');
+	}
+
+	.section:nth-child(odd) .article ol,
+	.section:nth-child(odd) .article ul{
+		padding-right: 2vw;
 	}
 
 	.article p, .article li,
 	.item-title, .item-info,
 	.item-check, .item-watch,
-	.item-note, .country-name,
-	.address p, .phones p,
-	.emails p, .copyright
+	.item-note, .Ukraine-content,
+	.country-name, .address p, 
+	.phones p, .emails p, .copyright
 	{
 		font-size: 4vw;
 	}
@@ -495,8 +535,8 @@ html,body{
 		font-size: 3.5vw;
 	}
 
-	.article-title,
-	.section-title{
+	.section-title,
+	.article-title{
 		font-size: 4vw;
 		font-weight: bold;
 	}
@@ -514,17 +554,17 @@ html,body{
 		padding: 2vw 0 2vw 0;
 	}
 
-	.article p{
+	.section:nth-child(odd) .article p{
 		padding-left: 3vw;
-		padding-right: 25vw;
+		padding-right: 22vw;
 	}
 
-	.article ol,
-	.article ul{
+	.section:nth-child(odd) .article ol,
+	.section:nth-child(odd) .article ul{
 		padding-left: 10vw;
 	}
 
-	.article li{
+	.section:nth-child(odd) .article li{
 		padding-right: 14vw;
 	}
 
@@ -540,6 +580,7 @@ html,body{
 	.div-autho > .image-autho{
 		padding: 2vw;
 	}
+
 	.div-autho > .image-autho:nth-child(odd){
 		width: 45vw;
 	}
@@ -563,7 +604,7 @@ html,body{
 	}
 
 	.deliveries{
-		padding-right: 10vw;
+		padding-right: 20vw;
 	}
 
 	.Ukraine{
@@ -576,9 +617,8 @@ html,body{
 		margin: 3vw auto;
 	}
 
-	.Ukraine p{
-		padding-left: 3vw;
-		padding-right: 12vw;
+	.Ukraine-content{
+		padding: 0 0 0 18vw;
 	}
 
 	.top-row,
@@ -629,9 +669,16 @@ html,body{
 
 @media only screen and (min-width: 1980px){
 
-	p,li
+	.article p,
+	.article li,
+	.Ukraine-content,
+	.country-name
 	{
 		font-size: 2vw;
+	}
+
+	.section:nth-child(odd) .article p{
+		padding-left: 3vw;
 	}
 
 	.item-title,
@@ -678,7 +725,7 @@ html,body{
 	}
 
 	.Ukraine{
-		padding: 3vw 0 3vw 12vw;
+		padding: 3vw 0 3vw 19.5vw;
 	}
 
 	.footer p,
