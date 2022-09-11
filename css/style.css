@@ -36,11 +36,6 @@ html,body{
 	text-align: center;
 }
 
-.header-title h2{
-	font-size: 1.4vw;
-	font-weight: bolder;
-}
-
 .btn-default{
 	background-color: rgba(21,143,1) !important;
 	border: 1px solid rgba(21,143,1) !important;
@@ -214,8 +209,8 @@ html,body{
 
 .item-image{
 	text-align: center;
-	width:  36vw;
-	height: 34vw;
+	width: 22vw;
+	height: 22vw;
 	cursor: pointer;
 }
 
@@ -263,10 +258,6 @@ html,body{
 	background-image: none !important;
 	filter: none !important;
 	padding: 0 18vw;
-}
-
-.carousel-controll{
-	margin-bottom: 18vw !important;
 }
 
 .glyphicon{
@@ -507,6 +498,14 @@ html,body{
 		padding-right: 2vw;
 	}
 
+	.header-title{
+		padding: 0;
+	}
+
+	.header-title h1{
+		font-size: 5vw;
+	}
+
 	.article p, .article li,
 	.item-title, .item-info,
 	.item-check, .item-watch,
@@ -528,6 +527,7 @@ html,body{
 
 	.item-watch{
 		margin: 0;
+		padding-top: 1vw;
 	}
 
 	.item-check{
@@ -596,11 +596,11 @@ html,body{
 	}
 
 	.section-image__about{
-		width: 45vw;
+		width: 52vw;
 	}
 
 	.section-image-div > .section-image-div__about{
-		width: 50vw;
+		width: 42vw;
 		padding: 2vw;
 	}
 
@@ -674,6 +674,13 @@ html,body{
 }
 
 @media only screen and (min-width: 1980px){
+
+	.header-title{
+		padding: 0;
+	}
+	.header-title h1{
+		font-size: 2.5vw;
+	}
 
 	.article p,
 	.article li,
