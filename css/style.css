@@ -226,6 +226,14 @@ html,body{
 	padding: 0 0.5vw;
 }
 
+.section:nth-child(even) .item-title{	
+	color: rgba(0,75,0);
+}
+
+.section:nth-child(odd) .item-title{	
+	color: rgba(2,36,163);
+}
+
 .item-caption{
 	height: 3vw;
 	padding-bottom: 4.25vw;
