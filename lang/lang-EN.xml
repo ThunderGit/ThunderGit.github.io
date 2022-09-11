@@ -38,15 +38,187 @@
 							</select>
 						</li>
 						<li class="active"><a href="#">Main Page <span class="sr-only">(current)</span></a></li>
+						<li><a href="#ecosolutions">Safe Solutions</a></li>
 						<li><a href="#products">Products</a></li>
 						<li><a href="#effectiveness">Effectiveness of use</a></li>
-						<li><a href="#ecosolutions">Safe Solutions</a></li>
 						<li><a href="#authorizations">Authorizations</a></li>
 						<li><a href="#about">About Us</a></li>
 					</ul>
 				</div>
 			</nav>
+
+			<div class='header-title'>
+				<h1><b>Food, feed, pharmaceutical phospholipids</b></h1>
+				<h1><b>Sunflower phospholipids technology</b></h1>
+			</div>
 		</header>
+
+		<section id='ecosolutions' class="section ecosolutions">
+			<header>
+				<h2 class='section-title'>
+					<b>Safe Solutions</b>
+				</h2>
+			</header>
+			<article class='article'>
+				<h2 hidden="hidden">Advantages</h2>
+				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'/>
+				<p>Advantages of deoiled sunflower lecithin and related products manufactured by BIOLER:</p>
+					<ul>
+						<li>GMO free;</li> 
+						<li>Allergen-free, therefore, unlike soy lecithin, do not require special marking according to:
+							<ul>
+								<li>Food Allergen Labeling and consumer Protection Act of 2004 (Public Law 108-282);</li>
+								<li>EU Regulation 1169-2011.</li>
+							</ul>
+						</li>
+						<li>Phytoestrogen-free.</li>
+					</ul>
+			</article>
+		</section>
+
+		<section id='effectiveness' class="section effectiveness">
+			<header>
+				<h2 class='section-title'>
+					<b>Effectiveness of use</b>
+				</h2>
+			</header>
+
+			<article class='article'>
+				<header>
+					<h3 class='article-title'>Lecithin in food industry</h3>
+				</header>
+
+				<div class='premium'>
+					<img class='premium-image' src='./images/premiums/sweet1.png' alt='sweet1'/>
+					<img class='premium-image' src='./images/premiums/sweet2.png' alt='sweet2'/>
+					<img class='premium-image' src='./images/premiums/sweet3.png' alt='sweet3'/>
+					<img class='premium-image' src='./images/premiums/sweet4.png' alt='sweet4'/>
+					<img class='premium-image' src='./images/premiums/sweet5.png' alt='sweet5'/>
+					<img class='premium-image' src='./images/premiums/sweet6.png' alt='sweet6'/>
+				</div>
+
+				<p>Lecithin is a natural additives (E 322) and, in its technological functions, it is an emulsifier and antioxidant.</p>
+				<p>The use of lecithin in the food industry is related to its ability to form and stabilize emulsions oil/water (different sauces and mayonnaises) and water/oil (margarines). Due to interaction of lecithin and structural components of dough (bakery and confectionary products) complex compounds are formed which play an important role in formation of the structure of partially prepared food and ready food products, slow down the process changes in high molecular substances of the crumb of bread when it is stored, improve rheological properties of dough as well as its resilience and elasticity. Addition of lecithin improves the rise of dough, makes it possible to use low gluten flour and to achieve more voluminous product outcome.</p>
+				<p>The ability of lecithin to stabilize suspensions is used in manufacturing food products with dried milk, cacao and extracts of coffee. Lecithin coating of the particles causes their hydrophilization, which leads both to their faster dissolving and to homogeneity and stability of suspensions.</p>
+				<p>Addition of lecithin has become mandatory in manufacturing chocolate, because it reduces the viscosity of the mix of fried cacao beans, sugar and cacao oil, reduces the time of mixing and saves cacao oil (addition of 0.5% of lecithin reduces viscosity by the same rate as addition of 5% of cacao oil).</p>
+				<p>More details are available here:</p>
+				<ol>
+					<li> (in Ukrainian) Аспекти застосування соняшникового лецитину у харчовій промисловості. Наукові праці ОНАХТ, вип. 36, т. 2, 2009р., с. 177-179.</li>
+					<li>(in Ukrainian) Використання сухого соняшникого лецитину при виробництві хлібобулочних виробів та маргаринів. Тематичний збірник наукових праць Донецького національного Університету економіки і торгівлі. - 2012. - Вип. 28. - с. 169-174.</li>
+				</ol>
+
+			</article>
+		</section>
+
+		<section class="section effectiveness">
+			<article class='article'>
+				<header>
+					<h3 class='article-title'>Lecithin and its components in pharmacology</h3>
+				</header>
+				<p>Lecithin as a diet additive is used in food rations of people as an additional source of phospholipids in case of the following diseases:</p>
+
+				<ol class='farmUse'>
+					<li class='farmUse-examp'> Disturbed cerebral circulation, exhaust of the central or peripheral nervous system, vegetovascular dystonia, headaches, sleep disturbances, increased excitability and irritability, worsening of memory and attention focusing, chronical fatigue and decreased capacity of work;</li>
+					<li class='farmUse-examp'> Increased level of cholesterol in blood, atherosclerosis affecting vessels of different localization (brain, heart, peripheral arteries etc.), complex therapy of arrhythmia, ischemic heart disease and essential hypertension;</li>
+					<li class='farmUse-examp'> Diseases of pancreas, type 1 and type 2 diabetes;</li>
+					<li class='farmUse-examp'> Diseases of the liver, bile ducts, hepatoprotective properties in case of influence of toxic substances and alcohol, chronical hepatitis, cirrhosis;</li>
+					<li class='farmUse-examp'> Dysfunctions of kidneys, prophylactics of lithogenesis;</li>
+					<li class='farmUse-examp'> Prophylactics of fibrosis of the prostate and reduction of activity of spermatozoa;</li>
+					<li class='farmUse-examp'> Complex therapy of allergy, skin diseases, psoriasis, eczema, neurodermatitis, etc.</li>
+				</ol>
+			
+				<p>At present, scientific research and developments of technologies in the field of extraction of individual natural lipids (in particular, phosphatidylcholine) and creation of artificial lipid membranes – liposomes – are carried out in cooperation with the Scientific Research Institute of Medical and Biological Problems at Dnipropetrovsk State Medical Institute, Dnipropetrovsk, and the Institute of Biotechology and Genomics of the National Academy of Science of Ukraine, Kiev.</p>
+
+				<p>Obtained results as of 01.01.2015 are presented here:</p>
+				<ol>
+					<li>(in Ukrainian) Сучасні уявлення про біологічні властивості лецитину. Медичні перспективи, т. XV, 2, 2010г., с. 123-135.</li>
+					<li>(in Ukrainian) Біологічні властивості лецитину з соняшнику. Наукові праці ОНАХТ, вип. 42, т. 1, 2012р., с. 234-238.</li>
+					<li>(in Ukrainian) Лецитин – його біологічні властивості. Методичний посібник. Дніпропетровськ: - 2013. - 64с.</li>
+					<li>(in Ukrainian) Вплив соєвого та соняшникового лецитинів на показники функціонування печінки при інтоксикації тетрахлорметаном. Методичний посібник. Дніпропетровськ: - 2014. - с. 38.</li>
+					<li>(in Ukrainian) Токсикологічна характеристика лецитину, збагаченого фосфатидилетаноламіном. Методичний посібник. Дніпропетровськ: - 2014. - с. 42.</li>
+					<li>Technology of dry powder sunflower lecithin for food, feed and pharmaceutics// Presentation at 103 AOCS Annual Meeting, Long Beach, USA. - 2012.</li>
+					<li>Biological properties of Deoil Sunflower lecithin 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+					<li>Multiscale Molecular Simulation and Experimental investigation of Sunflower Phospholipids Liposomes Using for Scavenging Free Radicals. 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
+					<li>Dry powder lecithin and liposomal nanoemulsions from sunflower. ILPS Phospholipid Congress, Rotterdam. - 2011.</li>
+					<li>(in Ukrainian) Патенти України: 
+						<ul>
+							<li>№ 86972, Бюл. № 1, 10.01.2014</li>
+							<li>№ 92313, Бюл. № 15, 11.08.2014.</li>
+						</ul>
+					</li>
+				</ol>
+			</article>
+		</section>
+
+		<section class="section effectiveness">
+			<article class='article'>
+
+				<header>
+					<h3 class='article-title'>Lecithin as a feed additive.</h3>
+				</header>
+
+				<div class='premium'>
+					<img class='premium-image' src='./images/premiums/anim1.png' alt='anim1'/>
+					<img class='premium-image' src='./images/premiums/anim2.png' alt='anim2'/>
+					<img class='premium-image' src='./images/premiums/anim3.png' alt='anim3'/>
+					<img class='premium-image' src='./images/premiums/anim4.png' alt='anim4'/>
+					<img class='premium-image' src='./images/premiums/anim5.png' alt='anim5'/>
+					<img class='premium-image' src='./images/premiums/anim6.png' alt='anim6'/>
+				</div>
+
+				<p>Lecithin (essential phospholipids) is an ecologically pure natural product extracted from phosphatide concentrate of sunflower seeds. As a feed additive, it increases the energy level of the diet of animals, intensifies anabolic processes in the organisms of animals and improves immunobiological activity owing to the consumption of components of lecithin (phosphatidylcholine, unsaturated fatty acids and others).</p>
+				<p>Phospholipids are necessary components of all, without exception, cells of a living organism; they perform a number of functions, namely:</p>
+				<ul>
+					<li> serve as a structure depositing metabolic energy (there are no analogues in energy potential);</li>
+					<li> are a structural components of membranes, provide their elasticity, prevent formation of free radicals, increasing by this antioxidant defense of animals, and reduce negative influence of stress factors;</li>
+					<li> improve the transport capability of cell membranes, i.e., assist in absorption of nutrients of the feed and in growth and development of animals;</li>
+					<li> improve calcification of bones, formation of musculoskeletal system and blood formation.</li>
+				</ul>
+				
+				<p>For animals, the most significant are unsaturated fatty acids, such as linoleic acid, which is not produced in organisms; therefore they have to be supplied with feed. In case of deficiency of this acid, growth gets suspended, resistance to infections and stresses weakens.</p>
+			
+				<p>Being a part of phospholipids of biological membranes, lecithin provides their elasticity and participates in the exchange of fats between the liver and fatty tissues. Presence of lecithin guarantees permanent outflow of fats from the liver into the blood stream, which prevents development of adipose infiltration of the liver or, in case of its dystrophy, increases its detoxification function.</p>
+
+				<p>Thus, lecithin is used for preparation of wholesome, enriched with energy and biologically active substances feeds with hepatoprotective properties for increasing resistance and general detoxification of organisms of animals in stressful situations.</p>
+
+				<p>Special tests helped to determine doses of intake of lecithin and compositions of formula feeds for feeding: </p>
+				<ul>
+					<li> broilers: 
+						<ul class='subList'>
+							<li>in the starting period;</li>
+							<li>in the finishing period;</li>
+						</ul>
+					</li>
+					<li> pregnant sows;</li>
+					<li> pigs on fattening;</li>
+					<li> carps, freshwater catfish, besters;</li>
+					<li> calves;</li>
+					<li> cows in calf;</li>
+					<li> fur-producing animals (minks)</li>
+					<li> adult dogs and cats.</li>
+				</ul>
+			
+				<p>More details are available here:</p>
+				<ol>
+					<li> (in Ukrainian) Лецитин як фактор одержання продукції тваринництва. К: Освіта України,2010, с. 114.</li>
+					<li> (in Ukrainian) Нові склади комбікормів для сільскогосподарських ,тварин, птиці та риби. Наукові праці ОНАХТ, випуск 36, т. 1, 2009р., с. 14-17.</li>
+					<li> (in Ukrainian) Ефективність застосування лецитину в рибництві. Тваринництво України, № 3, 2010р., с. 24-27.</li>
+					<li> (in Ukrainian) Використання лецитину як кормової добавки в раціонах молодняку свиней. Вісник інституту тваринництва центральних районів УААН, вип. 2, Дніпропетровськ, 2007р., с. 117-123.</li>
+					<li> Numbers of Ukrainian patents (in Ukrainian): 
+						<ul>
+							<li>№ 26705, Бюл. № 16, 10.10.2007г.</li>
+							<li>№ 32030, Бюл. № 8, 25.04.2008г.</li>
+							<li>№ 34328, Бюл. № 15, 11.08.2008г.</li>
+							<li>№ 35928, Бюл. № 19, 10.10.2008г.</li>
+							<li>№ 56982, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 56993, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 56994, Бюл. № 3, 10.02.2011г.</li>
+							<li>№ 71085. Бюл. № 13, 10.07.2012г.</li>
+						</ul>
+					</li>
+				</ol>
+			</article>
+		</section>
 
 		<section id="products" class="section products">
 			<header>
@@ -127,173 +299,7 @@
 				</a>
 			</div>
 		</section>
-
-		<!-- <br/><br/> -->
 		
-		<section id='effectiveness' class="section effectiveness">
-			<header>
-				<h2 class='section-title'>
-					<b>Effectiveness of use</b>
-				</h2>
-			</header>
-
-			<article class='article'>
-				<header>
-					<h3 class='article-title'>Lecithin in food industry</h3>
-				</header>
-
-				<div class='premium'>
-					<img class='premium-image' src='./images/premiums/sweet1.png' alt='sweet1'/>
-					<img class='premium-image' src='./images/premiums/sweet2.png' alt='sweet2'/>
-					<img class='premium-image' src='./images/premiums/sweet3.png' alt='sweet3'/>
-					<img class='premium-image' src='./images/premiums/sweet4.png' alt='sweet4'/>
-					<img class='premium-image' src='./images/premiums/sweet5.png' alt='sweet5'/>
-					<img class='premium-image' src='./images/premiums/sweet6.png' alt='sweet6'/>
-				</div>
-
-				<p>Lecithin is a natural additives (E 322) and, in its technological functions, it is an emulsifier and antioxidant.</p>
-				<p>The use of lecithin in the food industry is related to its ability to form and stabilize emulsions oil/water (different sauces and mayonnaises) and water/oil (margarines). Due to interaction of lecithin and structural components of dough (bakery and confectionary products) complex compounds are formed which play an important role in formation of the structure of partially prepared food and ready food products, slow down the process changes in high molecular substances of the crumb of bread when it is stored, improve rheological properties of dough as well as its resilience and elasticity. Addition of lecithin improves the rise of dough, makes it possible to use low gluten flour and to achieve more voluminous product outcome.</p>
-				<p>The ability of lecithin to stabilize suspensions is used in manufacturing food products with dried milk, cacao and extracts of coffee. Lecithin coating of the particles causes their hydrophilization, which leads both to their faster dissolving and to homogeneity and stability of suspensions.</p>
-				<p>Addition of lecithin has become mandatory in manufacturing chocolate, because it reduces the viscosity of the mix of fried cacao beans, sugar and cacao oil, reduces the time of mixing and saves cacao oil (addition of 0.5% of lecithin reduces viscosity by the same rate as addition of 5% of cacao oil).</p>
-				<p>More details are available here:</p>
-				<ol>
-					<li> (in Ukrainian) Аспекти застосування соняшникового лецитину у харчовій промисловості. Наукові праці ОНАХТ, вип. 36, т. 2, 2009р., с. 177-179.</li>
-					<li>(in Ukrainian) Використання сухого соняшникого лецитину при виробництві хлібобулочних виробів та маргаринів. Тематичний збірник наукових праць Донецького національного Університету економіки і торгівлі. - 2012. - Вип. 28. - с. 169-174.</li>
-				</ol>
-
-			</article>
-			
-			<article class='article'>
-				<header>
-					<h3 class='article-title'>Lecithin and its components in pharmacology</h3>
-				</header>
-				<p>Lecithin as a diet additive is used in food rations of people as an additional source of phospholipids in case of the following diseases:</p>
-
-				<ol class='farmUse'>
-					<li class='farmUse-examp'> Disturbed cerebral circulation, exhaust of the central or peripheral nervous system, vegetovascular dystonia, headaches, sleep disturbances, increased excitability and irritability, worsening of memory and attention focusing, chronical fatigue and decreased capacity of work;</li>
-					<li class='farmUse-examp'> Increased level of cholesterol in blood, atherosclerosis affecting vessels of different localization (brain, heart, peripheral arteries etc.), complex therapy of arrhythmia, ischemic heart disease and essential hypertension;</li>
-					<li class='farmUse-examp'> Diseases of pancreas, type 1 and type 2 diabetes;</li>
-					<li class='farmUse-examp'> Diseases of the liver, bile ducts, hepatoprotective properties in case of influence of toxic substances and alcohol, chronical hepatitis, cirrhosis;</li>
-					<li class='farmUse-examp'> Dysfunctions of kidneys, prophylactics of lithogenesis;</li>
-					<li class='farmUse-examp'> Prophylactics of fibrosis of the prostate and reduction of activity of spermatozoa;</li>
-					<li class='farmUse-examp'> Complex therapy of allergy, skin diseases, psoriasis, eczema, neurodermatitis, etc.</li>
-				</ol>
-			
-				<p>At present, scientific research and developments of technologies in the field of extraction of individual natural lipids (in particular, phosphatidylcholine) and creation of artificial lipid membranes – liposomes – are carried out in cooperation with the Scientific Research Institute of Medical and Biological Problems at Dnipropetrovsk State Medical Institute, Dnipropetrovsk, and the Institute of Biotechology and Genomics of the National Academy of Science of Ukraine, Kiev.</p>
-
-				<p>Obtained results as of 01.01.2015 are presented here:</p>
-				<ol>
-					<li>(in Ukrainian) Сучасні уявлення про біологічні властивості лецитину. Медичні перспективи, т. XV, 2, 2010г., с. 123-135.</li>
-					<li>(in Ukrainian) Біологічні властивості лецитину з соняшнику. Наукові праці ОНАХТ, вип. 42, т. 1, 2012р., с. 234-238.</li>
-					<li>(in Ukrainian) Лецитин – його біологічні властивості. Методичний посібник. Дніпропетровськ: - 2013. - 64с.</li>
-					<li>(in Ukrainian) Вплив соєвого та соняшникового лецитинів на показники функціонування печінки при інтоксикації тетрахлорметаном. Методичний посібник. Дніпропетровськ: - 2014. - с. 38.</li>
-					<li>(in Ukrainian) Токсикологічна характеристика лецитину, збагаченого фосфатидилетаноламіном. Методичний посібник. Дніпропетровськ: - 2014. - с. 42.</li>
-					<li>Technology of dry powder sunflower lecithin for food, feed and pharmaceutics// Presentation at 103 AOCS Annual Meeting, Long Beach, USA. - 2012.</li>
-					<li>Biological properties of Deoil Sunflower lecithin 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
-					<li>Multiscale Molecular Simulation and Experimental investigation of Sunflower Phospholipids Liposomes Using for Scavenging Free Radicals. 104 AOCS Annual Meeting&amp;Expo Montreal. Canada. - 2013.</li>
-					<li>Dry powder lecithin and liposomal nanoemulsions from sunflower. ILPS Phospholipid Congress, Rotterdam. - 2011.</li>
-					<li>(in Ukrainian) Патенти України: 
-						<ul>
-							<li>№ 86972, Бюл. № 1, 10.01.2014</li>
-							<li>№ 92313, Бюл. № 15, 11.08.2014.</li>
-						</ul>
-					</li>
-				</ol>
-			</article>
-
-			<article class='article'>
-
-				<header>
-					<h3 class='article-title'>Lecithin as a feed additive.</h3>
-				</header>
-
-				<div class='premium'>
-					<img class='premium-image' src='./images/premiums/anim1.png' alt='anim1'/>
-					<img class='premium-image' src='./images/premiums/anim2.png' alt='anim2'/>
-					<img class='premium-image' src='./images/premiums/anim3.png' alt='anim3'/>
-					<img class='premium-image' src='./images/premiums/anim4.png' alt='anim4'/>
-					<img class='premium-image' src='./images/premiums/anim5.png' alt='anim5'/>
-					<img class='premium-image' src='./images/premiums/anim6.png' alt='anim6'/>
-				</div>
-
-				<p>Lecithin (essential phospholipids) is an ecologically pure natural product extracted from phosphatide concentrate of sunflower seeds. As a feed additive, it increases the energy level of the diet of animals, intensifies anabolic processes in the organisms of animals and improves immunobiological activity owing to the consumption of components of lecithin (phosphatidylcholine, unsaturated fatty acids and others).</p>
-				<p>Phospholipids are necessary components of all, without exception, cells of a living organism; they perform a number of functions, namely:</p>
-				<ul>
-					<li> serve as a structure depositing metabolic energy (there are no analogues in energy potential);</li>
-					<li> are a structural components of membranes, provide their elasticity, prevent formation of free radicals, increasing by this antioxidant defense of animals, and reduce negative influence of stress factors;</li>
-					<li> improve the transport capability of cell membranes, i.e., assist in absorption of nutrients of the feed and in growth and development of animals;</li>
-					<li> improve calcification of bones, formation of musculoskeletal system and blood formation.</li>
-				</ul>
-				
-				<p>For animals, the most significant are unsaturated fatty acids, such as linoleic acid, which is not produced in organisms; therefore they have to be supplied with feed. In case of deficiency of this acid, growth gets suspended, resistance to infections and stresses weakens.</p>
-			
-				<p>Being a part of phospholipids of biological membranes, lecithin provides their elasticity and participates in the exchange of fats between the liver and fatty tissues. Presence of lecithin guarantees permanent outflow of fats from the liver into the blood stream, which prevents development of adipose infiltration of the liver or, in case of its dystrophy, increases its detoxification function.</p>
-
-				<p>Thus, lecithin is used for preparation of wholesome, enriched with energy and biologically active substances feeds with hepatoprotective properties for increasing resistance and general detoxification of organisms of animals in stressful situations.</p>
-
-				<p>Special tests helped to determine doses of intake of lecithin and compositions of formula feeds for feeding: </p>
-				<ul>
-					<li> broilers: 
-						<ul class='subList'>
-							<li>in the starting period;</li>
-							<li>in the finishing period;</li>
-						</ul>
-					</li>
-					<li> pregnant sows;</li>
-					<li> pigs on fattening;</li>
-					<li> carps, freshwater catfish, besters;</li>
-					<li> calves;</li>
-					<li> cows in calf;</li>
-					<li> fur-producing animals (minks)</li>
-					<li> adult dogs and cats.</li>
-				</ul>
-			
-				<p>More details are available here:</p>
-				<ol>
-					<li> (in Ukrainian) Лецитин як фактор одержання продукції тваринництва. К: Освіта України,2010, с. 114.</li>
-					<li> (in Ukrainian) Нові склади комбікормів для сільскогосподарських ,тварин, птиці та риби. Наукові праці ОНАХТ, випуск 36, т. 1, 2009р., с. 14-17.</li>
-					<li> (in Ukrainian) Ефективність застосування лецитину в рибництві. Тваринництво України, № 3, 2010р., с. 24-27.</li>
-					<li> (in Ukrainian) Використання лецитину як кормової добавки в раціонах молодняку свиней. Вісник інституту тваринництва центральних районів УААН, вип. 2, Дніпропетровськ, 2007р., с. 117-123.</li>
-					<li> Numbers of Ukrainian patents (in Ukrainian): 
-						<ul>
-							<li>№ 26705, Бюл. № 16, 10.10.2007г.</li>
-							<li>№ 32030, Бюл. № 8, 25.04.2008г.</li>
-							<li>№ 34328, Бюл. № 15, 11.08.2008г.</li>
-							<li>№ 35928, Бюл. № 19, 10.10.2008г.</li>
-							<li>№ 56982, Бюл. № 3, 10.02.2011г.</li>
-							<li>№ 56993, Бюл. № 3, 10.02.2011г.</li>
-							<li>№ 56994, Бюл. № 3, 10.02.2011г.</li>
-							<li>№ 71085. Бюл. № 13, 10.07.2012г.</li>
-						</ul>
-					</li>
-				</ol>
-			</article>
-
-		</section>
-
-		<section id='ecosolutions' class="section ecosolutions">
-			<header>
-				<h2 class='section-title'>
-					<b>Safe Solutions</b>
-				</h2>
-			</header>
-			<article class='article'>
-				<h2 hidden="hidden">Advantages</h2>
-				<img class='section-image' src='./images/ecoprods.png' alt='ecoprods'/>
-				<p>Advantages of deoiled sunflower lecithin and related products manufactured by BIOLER:</p>
-					<ul>
-						<li>GMO free;</li> 
-						<li>Allergen-free, therefore, unlike soy lecithin, do not require special marking according to:
-							<ul>
-								<li>Food Allergen Labeling and consumer Protection Act of 2004 (Public Law 108-282);</li>
-								<li>EU Regulation 1169-2011.</li>
-							</ul>
-						</li>
-						<li>Phytoestrogen-free.</li>
-					</ul>
-			</article>
-		</section>
-
 		<section id='authorizations' class="section authorizations">
 			<header>
 				<h2 class='section-title'>
