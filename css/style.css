@@ -26,9 +26,19 @@ html,body{
 .header{
 	position: relative;
 	margin-bottom: -20px;
-	/*padding-top: 40vw;*/
+	padding-bottom: 5vw;
 	background-color: rgba(181,236,255);
 	color: rgba(2,36,163);
+}
+
+.header-title{
+	position: relative;
+	text-align: center;
+}
+
+.header-title h2{
+	font-size: 1.4vw;
+	font-weight: bolder;
 }
 
 .btn-default{
@@ -198,14 +208,6 @@ html,body{
 	color: rgba(2,36,163);
 }
 
-.effectiveness:nth-child(odd) .article:nth-child(odd){
-	color: rgba(0,75,0);
-}
-
-.effectiveness:nth-child(odd) .article:nth-child(even){
-	color: rgba(2,36,163);
-}
-
 .item{
 	margin: 15px auto;
 }
@@ -222,14 +224,6 @@ html,body{
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 0 0.5vw;
-}
-
-.section:nth-child(even) .item-title{	
-	color: rgba(0,75,0);
-}
-
-.section:nth-child(odd) .item-title{	
-	color: rgba(2,36,163);
 }
 
 .item-caption{
@@ -455,10 +449,12 @@ html,body{
 /**sections**/
 
 .header::before{
-	background-image: url("../images/section-sun.jpg");
+	background-image: url("../images/section-sun-rev.jpg");
+	background-position: left;
 }
 
-.section:nth-child(odd)::before{
+.section:nth-child(odd)::before,
+.article:nth-child(odd)::before{
 	background-image: url("../images/section-sun.jpg");
 	background-position: right;
 }
@@ -492,6 +488,8 @@ html,body{
 		background-image: url('../images/section-sun-alt.jpg');
 	}
 
+	
+	.header:before,
 	.section:nth-child(even)::before{
 		background-image: url('../images/section-sun-alt-rev.jpg');
 	}
@@ -590,7 +588,7 @@ html,body{
 	}
 
 	.section-image__about{
-		width: 70vw;
+		width: 45vw;
 	}
 
 	.section-image-div > .section-image-div__about{
