@@ -33,6 +33,7 @@ html,body{
 
 .header-title{
 	position: relative;
+	text-transform: uppercase;
 	text-align: center;
 }
 
