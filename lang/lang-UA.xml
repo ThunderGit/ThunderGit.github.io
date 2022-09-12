@@ -440,13 +440,10 @@
 				<header>
 					<h3 class='article-title'>Доставка по всьому світу</h3>
 				</header>
-				<div class='Ukraine'>
-					<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
-					<span class='Ukraine-content'>
-						BIOLER отримав схвалення постачання та якості від клієнтів у таких країнах, як:
-					</span>
-				</div>
-				<div class='deliveries'>
+				
+				<p>BIOLER отримав схвалення постачання та якості від клієнтів у таких країнах, як:</p>
+					
+				<!-- <div class='deliveries'>
 					<div class='top-row'>
 						<div class='country'>
 							<h4 class='country-name'>Австрія</h4>
@@ -480,6 +477,41 @@
 							<h4 class='country-name'>США</h4>
 							<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
 						</div>
+					</div>
+				</div> -->
+
+				<div class="deliveries">
+					<div class="country">
+						<h4 class='country-name'>Україна</h4>
+						<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Австрія</h4>
+						<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Словаччина</h4>
+						<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Болгарія</h4>
+						<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Сербія</h4>
+						<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Ізраїль</h4>
+						<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Південна Корея</h4>
+						<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>США</h4>
+						<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
 					</div>
 				</div>
 			</article>

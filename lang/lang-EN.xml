@@ -458,54 +458,86 @@
 						<li>highly skilled workers.</li>
 					</ul>
 				</p>
-
-				</article>
+			</article>
 				
-				<article class='article'>
-					<!-- <img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/> -->
-					<header>
-						<h3 class='article-title'>Worldwide Deliveries</h3>
-					</header>
-					<div class='Ukraine'>
+			<article class='article'>
+				<!-- <img class="section-image__deliveries" src='./images/deliveries2.png' alt='deliveries2.png'/> -->
+				<header>
+					<h3 class='article-title'>Worldwide Deliveries</h3>
+				</header>
+				<p>BIOLER has got Supply and Quality approval by customers in:</p>
+				
+				<!-- <div class='deliveries'>
+					<div class='top-row'>
+						<div class='country'>
+							<h4 class='country-name'>Austria</h4>
+							<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Slovakia</h4>
+							<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Bulgaria</h4>
+							<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>Serbia</h4>
+							<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
+						</div>
+					</div>
+					<div class='middle-row'>
+						<div class='country'>
+							<h4 class='country-name'>Israel</h4>
+							<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
+						</div>
+						<div class='country'>
+							<h4 class='country-name'>South Korea</h4>
+							<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
+						</div>
+					</div>
+					<div class='bottom-row'>
+						<div class='country'>
+							<h4 class='country-name'>USA</h4>
+							<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="deliveries">
+					<div class="country">
+						<h4 class='country-name'>Ukraine</h4>
 						<img class='country-image' src='./images/countries/Ukraine.png' alt='Ukraine'/>
-						<span class='Ukraine-content'>BIOLER has got Supply and Quality approval by customers in:</span>
 					</div>
-					<div class='deliveries'>
-						<div class='top-row'>
-							<div class='country'>
-								<h4 class='country-name'>Austria</h4>
-								<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
-							</div>
-							<div class='country'>
-								<h4 class='country-name'>Slovakia</h4>
-								<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
-							</div>
-							<div class='country'>
-								<h4 class='country-name'>Bulgaria</h4>
-								<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
-							</div>
-							<div class='country'>
-								<h4 class='country-name'>Serbia</h4>
-								<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
-							</div>
-						</div>
-						<div class='middle-row'>
-							<div class='country'>
-								<h4 class='country-name'>Israel</h4>
-								<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
-							</div>
-							<div class='country'>
-								<h4 class='country-name'>South Korea</h4>
-								<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
-							</div>
-						</div>
-						<div class='bottom-row'>
-							<div class='country'>
-								<h4 class='country-name'>USA</h4>
-								<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
-							</div>
-						</div>
+					<div class="country">
+						<h4 class='country-name'>Austria</h4>
+						<img class='country-image' src='./images/countries/Austria.png' alt='Austria'/>
 					</div>
+					<div class="country">
+						<h4 class='country-name'>Slovakia</h4>
+						<img class='country-image' src='./images/countries/Slovakia.png' alt='Slovakia'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Bulgaria</h4>
+						<img class='country-image' src='./images/countries/Bulgaria.png' alt='Bulgaria'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Serbia</h4>
+						<img class='country-image' src='./images/countries/serbia.png' alt='serbia'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>Israel</h4>
+						<img class='country-image' src='./images/countries/Israel.png' alt='Israel'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>South Korea</h4>
+						<img class='country-image' src='./images/countries/South Korea.png' alt='South Korea'/>
+					</div>
+					<div class="country">
+						<h4 class='country-name'>USA</h4>
+						<img class='country-image' src='./images/countries/USA.png' alt='USA'/>
+					</div>
+				</div>		
 			</article>
 		</section>
 
