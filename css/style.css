@@ -4,7 +4,7 @@ html,body{
 	background-color: rgba(181,236,255);
 }
 
-.div-hello {
+.div-hello{
 	position: fixed;
 	display: block;
 	width: 100%;
@@ -18,7 +18,7 @@ html,body{
 	background-size: 100% 100%;
 }
 
-.scroll-stop {
+.scroll-stop{
 	height: 100%;
 	overflow: hidden;
 }
@@ -43,7 +43,7 @@ html,body{
 	text-align: center;
 }
 
-.navbar {
+.navbar{
 	list-style-type: none;
 	overflow: hidden;
 	border-radius: 0 !important;
@@ -64,7 +64,7 @@ html,body{
 	position: relative;
 }
 
-.navbar li:not(:first-child):after {
+.navbar li:not(:first-child):after{
 	content: " ";
 	position: absolute;
 	border-right: 0.2vw solid rgba(2,36,163);
@@ -75,7 +75,7 @@ html,body{
 	margin-bottom: auto;
 }
 
-.navbar a {
+.navbar a{
 	color: rgba(2,36,163);
 	text-align: center;
 	text-decoration: none;
@@ -341,7 +341,7 @@ html,body{
 }
 
 .farmUse > .farmUse-examp {
- 	list-style: none;
+	list-style: none;
 }
 
 .farmUse > .farmUse-examp:before {
@@ -349,46 +349,34 @@ html,body{
 	counter-increment: list;
 }
 
-.Ukraine{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 2vw 0 2vw 3vw;
-}
-
-.Ukraine-content{
-	padding: 0 2vw;
-	text-indent: 3vw;
-	font-size: 1.4vw;
-}
-
-.deliveries{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	padding-left: 17.5vw;
-	width: 12vw;
-}
-
-.top-row,
+/*.top-row,
 .middle-row,
 .bottom-row{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
+*/
+
+.deliveries{
+	position: relative;
+	width: 30vw;
+	height: 15vw;
+	margin: 22vw 34vw;
+}
 
 .country{
-	height: auto;
-	width: 15vw;
-	margin: 2vw 5vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	position: absolute;
 	text-align: center;
 }
+
+.country:nth-child(2){transform: translateY(-20vw);}
+.country:nth-child(3){transform: translateX(20vw) translateY(-10vw);}
+.country:nth-child(4){transform: translateX(-20vw) translateY(-10vw);}
+.country:nth-child(5){transform: translateX(-30vw) translateY(5vw);}
+.country:nth-child(6){transform: translateX(30vw) translateY(5vw);}
+.country:nth-child(7){transform: translateX(-10vw) translateY(18vw);}
+.country:nth-child(8){transform: translateX(10vw) translateY(18vw);}
 
 .country-image{
 	width: 10vw;
@@ -610,39 +598,29 @@ html,body{
 		margin: 0 26vw;
 	}
 
-	.deliveries{
-		padding-right: 20vw;
-	}
-
-	.Ukraine{
-		flex-direction: column;
-		justify-content: center;
-		padding: 3vw 0;
-	}
-
-	.Ukraine > .country-image{
-		margin: 3vw auto;
-	}
-
-	.Ukraine-content{
-		padding: 0 0 0 18vw;
-	}
-
-	.top-row,
+	/*.top-row,
 	.middle-row,
 	.bottom-row{
 		display: grid;
-  		grid-template-columns: auto auto;
+		grid-template-columns: auto auto;
+	}*/
+
+	.deliveries{
+		width: 25vw;
+		height: 25vw;
+		margin: 38vw 37vw;
 	}
 
-	.country{
-		margin: 2vw 8vw;
-		text-align: center;
-	}
+	.country:nth-child(2){transform: translateY(-30vw);}
+	.country:nth-child(3){transform: translateX(18vw) translateY(-15vw);}
+	.country:nth-child(4){transform: translateX(-18vw) translateY(-15vw);}
+	.country:nth-child(5){transform: translateX(-26vw) translateY(10vw);}
+	.country:nth-child(6){transform: translateX(26vw) translateY(10vw);}
+	.country:nth-child(7){transform: translateX(-10vw) translateY(28vw);}
+	.country:nth-child(8){transform: translateX(10vw) translateY(28vw);}
 
 	.country-image{
-		width: 25vw;
-		height: auto;
+		width: 12vw;
 	}
 
 	.country-name{
@@ -679,6 +657,7 @@ html,body{
 	.header-title{
 		padding: 0;
 	}
+
 	.header-title h1{
 		font-size: 2.5vw;
 	}
@@ -715,7 +694,7 @@ html,body{
 
 	.article-title,
 	.section-title{
-		font-size: 2vw;
+		font-size: 2.5vw;
 		font-weight: bold;
 	}
 
@@ -736,10 +715,6 @@ html,body{
 
 	.premium-image{
 		width: 10vw;
-	}
-
-	.Ukraine{
-		padding: 3vw 0 3vw 19.5vw;
 	}
 
 	.footer p,
