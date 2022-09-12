@@ -725,10 +725,14 @@ html,body{
 		width: 10vw;
 	}
 
+	.deliveries{
+		margin: 22vw 40vw;
+	}
+
 	.country-name{
 		width: 25vw;
 	}
-	
+
 	.footer p,
 	.LTD{
 		font-size: 1.5vw;
