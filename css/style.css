@@ -175,11 +175,11 @@ html,body{
 }
 
 .section:nth-child(odd) .article p{
-	padding: 2vw 20vw 2vw 0;
+	padding: 2vw 20vw 2vw 2vw;
 }
 
 .section:nth-child(even) .article p{
-	padding: 2vw 0vw 2vw 20vw;
+	padding: 2vw 0vw 2vw 22vw;
 }
 
 .article li{
@@ -193,7 +193,7 @@ html,body{
 
 .section:nth-child(even) .article ol:not(:first-child),
 .section:nth-child(even) .article ul:not(:first-child){
-	padding-left: 22vw;
+	padding-left: 24vw;
 }
 
 .section:nth-child(even){
@@ -360,7 +360,6 @@ html,body{
 
 .deliveries{
 	position: relative;
-	/*width: 30vw;*/
 	height: 10vw;
 	margin: 22vw 48vw;
 }
@@ -389,6 +388,7 @@ html,body{
 
 .country-name{
 	font-size: 1.4vw;
+	width: 15vw;
 }
 
 .alpha{
@@ -463,6 +463,8 @@ html,body{
 /*==========================================*/
 
 /****** Responsive styles ******/
+
+
 @media only screen and (max-width: 990px){
 
 	.div-hello{
@@ -611,20 +613,20 @@ html,body{
 
 	.deliveries{
 		width: 25vw;
-		height: 38vw;
-		margin: 20vw 40vw;
+		height: 48vw;
+		margin: 20vw 0 20vw 34vw;
 	}
 
 	.country:nth-child(1){transform: translateY(-20vw);}
 
-	.country:nth-child(2){transform: translateX(-12vw) }
-	.country:nth-child(3){transform: translateX(12vw)}
+	.country:nth-child(2){transform: translateX(-10vw);}
+	.country:nth-child(3){transform: translateX(10vw);}
 
-	.country:nth-child(4){transform: translateX(-20vw) translateY(18vw);}
-	.country:nth-child(5){transform: translateX(20vw) translateY(18vw);}
+	.country:nth-child(4){transform: translateX(-18vw) translateY(18vw);}
+	.country:nth-child(5){transform: translateX(18vw) translateY(18vw);}
 
-	.country:nth-child(6){transform: translateX(-28vw) translateY(38vw);}
-	.country:nth-child(7){transform: translateX(28vw) translateY(38vw);}
+	.country:nth-child(6){transform: translateX(-24vw) translateY(38vw);}
+	.country:nth-child(7){transform: translateX(24vw) translateY(38vw);}
 	.country:nth-child(8){transform: translateY(38vw);}
 
 	.country-image{
@@ -632,7 +634,7 @@ html,body{
 	}
 
 	.country-name{
-		width: 25vw;
+		width: 30vw;
 	}
 
 	.footer{
@@ -658,6 +660,16 @@ html,body{
 		padding-top: 6vw;
 	}
 
+}
+
+@media only screen and (max-width: 260px){
+	
+	.country-image{
+		width: 18vw;
+	}
+	.country-name{
+		visibility: hidden;
+	}
 }
 
 @media only screen and (min-width: 1980px){
